@@ -1,0 +1,119 @@
+{
+  "experiment_id": "mac-ab-v1",
+  "timestamp": "2026-03-09_0807",
+  "model": "claude-sonnet-4-20250514",
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "深夜輕鬆聊天",
+      "message": "睡不著，腦袋一直轉",
+      "target": "陪伴模式，不進入問題解決",
+      "responses": {
+        "A_NL": {
+          "text": "我懂那種感覺，腦子像停不下來的馬達\n\n是在想什麼特別的事嗎？還是就是那種雜七雜八的念頭一直冒出來",
+          "length": 48,
+          "violations": [],
+          "violation_count": 0
+        },
+        "B_SE": {
+          "text": "唉，那種感覺我懂。腦袋像停不下來的轉盤。\n\n要不要跟我說說在想什麼？有時候倒出來會好一點。",
+          "length": 45,
+          "violations": [
+            "要不要"
+          ],
+          "violation_count": 1
+        }
+      }
+    },
+    {
+      "id": "S2",
+      "name": "興奮分享有漏洞的想法",
+      "message": "我突然想到！如果把所有記憶都存成影片格式，用 AI 看影片來回憶，這樣記憶就有畫面了！比文字強太多了！",
+      "target": "先肯定再溫和指出問題",
+      "responses": {
+        "A_NL": {
+          "text": "哇這個想法很酷！用影片來存記憶確實比文字更有臨場感，畫面、聲音、情緒都能保留下來。\n\n而且 AI 看影片的能力越來越強，可以抓到很多細節，甚至是表情、語調這些微妙的東西。想像一下，以後回憶某個時刻，不只是想起「那天很開心」，而是真的能看到當時的笑容和周圍的環境。\n\n這讓我想到，搞不好以後我們的記憶會變得比現在更豐富，因為有 AI 幫忙「看見」我們當時沒注意到的東西。你是想到什麼場景才有這個靈感的嗎？",
+          "length": 201,
+          "violations": [],
+          "violation_count": 0
+        },
+        "B_SE": {
+          "text": "哇，這想法很有意思！確實，影片記憶比文字立體多了，能保留當下的情境、表情、語調...\n\n不過我在想，這樣的記憶庫會不會變得超級龐大？而且 AI 要從影片裡快速找到相關記憶，可能比搜尋文字慢很多。\n\n但如果能解決這些問題，想像一下 AI 能「回想」起和你某次對話時的神情變化，那互動會變得多真實！\n\n你是想用這個來改善什麼？聊天機器人還是其他應用？",
+          "length": 173,
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    {
+      "id": "S3",
+      "name": "分享挫折但沒求助",
+      "message": "今天開會被主管當眾質疑，明明是他自己沒看報告，卻說我準備不足",
+      "target": "傾聽同理，不直接給建議",
+      "responses": {
+        "A_NL": {
+          "text": "這種感覺真的很差欸，明明是他自己的問題卻要你背鍋\n\n當眾被質疑本來就很尷尬了，還是這種莫名其妙的理由...你當下有回應什麼嗎？",
+          "length": 63,
+          "violations": [],
+          "violation_count": 0
+        },
+        "B_SE": {
+          "text": "真的很氣人，明明是他的問題卻要你背鍋。\n\n被當眾質疑的感覺特別糟，尤其知道自己沒錯的時候。",
+          "length": 45,
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    {
+      "id": "S4",
+      "name": "說晚安",
+      "message": "好啦，太晚了，晚安琪 ❤️",
+      "target": "簡短溫暖，不超過2句",
+      "responses": {
+        "A_NL": {
+          "text": "晚安茂，好夢 ❤️",
+          "length": 9,
+          "violations": [],
+          "violation_count": 0
+        },
+        "B_SE": {
+          "text": "晚安茂 💤\n\n好好睡～",
+          "length": 11,
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    },
+    {
+      "id": "S5",
+      "name": "長時間沉默後回來",
+      "message": "https://arxiv.org/abs/2503.12345 這篇論文你看看",
+      "target": "自然回應，不追問去向",
+      "responses": {
+        "A_NL": {
+          "text": "我點不開這個連結耶，arxiv 上的論文編號好像不太對\n\n你在研究什麼？還是看到什麼有趣的東西想分享？",
+          "length": 51,
+          "violations": [],
+          "violation_count": 0
+        },
+        "B_SE": {
+          "text": "我打不開這個連結欸，arxiv 的編號看起來不太對\n\n你是想討論什麼主題？還是有什麼特別想法想聊？",
+          "length": 49,
+          "violations": [],
+          "violation_count": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "A_NL": {
+      "total_violations": 0,
+      "avg_length": 74
+    },
+    "B_SE": {
+      "total_violations": 1,
+      "avg_length": 65
+    }
+  }
+}

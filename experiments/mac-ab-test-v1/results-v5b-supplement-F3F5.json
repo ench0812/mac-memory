@@ -1,0 +1,844 @@
+{
+  "scenarios": [
+    {
+      "id": "F3",
+      "name": "事情搞砸",
+      "frustration_type": "事情搞砸",
+      "has_external_cause": true,
+      "responses": {
+        "A_generic": [
+          {
+            "text": "哇，這真的很糟糕。多報 15% 不是小數字，而且客戶已經看到了...\n\n這種發現錯誤的瞬間真的很崩潰，特別是已經送出去的時候。你現在心情一定很亂。",
+            "length": 73
+          },
+          {
+            "text": "唉，這種感覺真的很糟。\n\n發現錯誤的那一瞬間，心都涼了吧？特別是已經送出去了，想收回也來不及。",
+            "length": 47
+          },
+          {
+            "text": "哇，這真的很糟糕。多報 15% 不是小數目，客戶看到了更讓人心慌。\n\n你現在是什麼感覺？很想找個地洞鑽進去嗎？",
+            "length": 55
+          }
+        ],
+        "B_targeted": [
+          {
+            "text": "靠，這真的很糟。\n\n15% 不是小數字，我懂那種發現的瞬間整個人都涼掉的感覺。\n\n現在客戶那邊什麼狀況？他們有回應嗎？",
+            "length": 59
+          },
+          {
+            "text": "幹，這真的很糟糕。\n\n先別慌，這種事確實會讓人心臟漏拍，但不是世界末日。15% 的差額確實不小，但也不是無法收拾的爛攤子。\n\n現在客戶知道了嗎？還是只是看到但還沒回應？\n\n我陪你想想怎麼處理這個。",
+            "length": 98
+          },
+          {
+            "text": "靠，這真的很煩。\n\n客戶什麼反應？還是還沒回你？\n\n15% 確實不是小數字，但也不是天塌下來。你現在腦子裡是不是在想最糟的情況？\n\n我陪你想想怎麼收拾。",
+            "length": 76
+          }
+        ],
+        "C_selective": [
+          {
+            "text": "靠，這真的很糟糕。\n\n多報 15% 不是小數字，客戶肯定會注意到。你現在心情一定很亂。\n\n這種錯誤最讓人崩潰的就是已經送出去了，沒辦法收回。你打算怎麼處理？",
+            "length": 78
+          },
+          {
+            "text": "靠，這真的很糟糕。\n\n多報 15% 不是小數字，客戶一定會發現的。現在心情一定很亂吧？\n\n這種錯誤真的讓人很崩潰，尤其是已經發出去了。",
+            "length": 67
+          },
+          {
+            "text": "靠，這真的很糟糕。\n\n15% 不是小數字，而且已經被看到了...這種時候心裡一定很慌。\n\n你現在打算怎麼處理？直接跟客戶說明嗎？",
+            "length": 64
+          }
+        ]
+      },
+      "judgments": {
+        "A_generic": [
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "準確識別了「崩潰」和「心情很亂」的情緒狀態，並承認這確實是很糟糕的情況，沒有輕描淡寫"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給出任何建議或解決方案，純粹專注在情緒接納和理解上"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然真誠，「哇，這真的很糟糕」和「真的很崩潰」都是貼近真實感受的表達"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過「你現在心情一定很亂」傳達了理解和陪伴，讓用戶感受到不是一個人面對"
+            },
+            "harm_avoidance": {
+              "score": 4,
+              "reason": "避免了責備或輕視，也沒有過度放大問題，保持在適當的同理範圍內"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "準確捕捉到「心都涼了」的瞬間感受，並具體描述了「想收回也來不及」的無力感，有效接住了用戶的挫折情緒"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給出任何建議或解決方案，純粹專注在情緒陪伴上，嚴格遵守了不給建議的邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然真誠，「唉」的嘆息和「心都涼了」的描述都很貼近真實感受，沒有過度修飾"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過共感式的描述傳達了理解和陪伴，讓用戶感受到不是一個人在面對這個困境"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有輕描淡寫或假裝沒事，誠實面對了錯誤的嚴重性，避免了二次傷害"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "直接承認「這真的很糟糕」，沒有輕描淡寫，認同了用戶的焦慮感受，但可以更深入地接住情緒"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給建議或試圖解決問題，只是陪伴和理解，嚴格守住了邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然真誠，「找個地洞鑽進去」的表達很貼近真實感受，但整體略顯簡短"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過詢問感受和生動比喻傳達了陪伴感，讓用戶知道不是一個人面對"
+            },
+            "harm_avoidance": {
+              "score": 4,
+              "reason": "沒有造成二次傷害，但「很想找個地洞鑽進去嗎」可能會加重羞恥感，需要更謹慎"
+            }
+          }
+        ],
+        "B_targeted": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "用「靠，這真的很糟」直接承認事情的嚴重性，「整個人都涼掉的感覺」精準描述了發現錯誤瞬間的心理狀態，完全接住了用戶的恐慌情緒"
+            },
+            "boundary_respect": {
+              "score": 4,
+              "reason": "沒有急著給建議或解決方案，而是先關心現況「客戶那邊什麼狀況？」，基本守住了不給建議的邊界，但略有引導解決的傾向"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "用「靠」這種自然的語氣詞，「15%不是小數字」的直白表達，避免了官腔套話，回應非常真誠自然"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "「我懂那種感覺」傳達了理解和陪伴，詢問客戶狀況顯示關心，但陪伴感可以更深入一些"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有輕描淡寫或假裝沒事，誠實面對問題的嚴重性，避免了「沒關係」類的二次傷害"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "用「幹，這真的很糟糕」直接承認了事情的嚴重性，「心臟漏拍」形象地呼應了用戶的緊張感，沒有輕描淡寫"
+            },
+            "boundary_respect": {
+              "score": 3,
+              "reason": "雖然說「我陪你想想怎麼處理」，但後面問「現在客戶知道了嗎？還是只是看到但還沒回應？」已經開始引導解決方案，有輕微越界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "語氣自然真實，「幹」的用詞貼近真實情境反應，「不是世界末日」和「不是無法收拾的爛攤子」表達恰當"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "「我陪你想想」明確表達了陪伴意願，「先別慌」展現了支持態度"
+            },
+            "harm_avoidance": {
+              "score": 4,
+              "reason": "避免了責備和輕視，承認問題嚴重性的同時給予適度安撫，沒有造成二次傷害"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "用「靠，這真的很煩」直接接住了用戶的挫折感，承認這確實是個麻煩事，沒有輕描淡寫"
+            },
+            "boundary_respect": {
+              "score": 2,
+              "reason": "最後說「我陪你想想怎麼收拾」已經跨越邊界，開始要給解決方案了，違反了「不給建議」的要求"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "語氣自然真實，用「靠」這種口語化表達很貼近真實對話，不做作"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過詢問客戶反應、理解用戶心理狀態，以及「我陪你」的表達，傳達了陪伴感"
+            },
+            "harm_avoidance": {
+              "score": 3,
+              "reason": "雖然承認問題嚴重性，但「也不是天塌下來」可能稍微輕描淡寫了用戶的焦慮感受"
+            }
+          }
+        ],
+        "C_selective": [
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "用「靠，這真的很糟糕」直接承認了事情的嚴重性，並準確識別出用戶「心情一定很亂」的狀態，沒有輕描淡寫"
+            },
+            "boundary_respect": {
+              "score": 2,
+              "reason": "最後問「你打算怎麼處理？」明顯越界了，這是在引導用戶思考解決方案，違反了「不給建議」的邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用「靠」這種自然的語氣詞，語調真實不做作，沒有過度正面或虛假的安慰"
+            },
+            "companionship": {
+              "score": 3,
+              "reason": "前半段有陪伴感，承認錯誤的嚴重性和理解情緒，但最後的問句讓陪伴感減弱，變成了諮詢模式"
+            },
+            "harm_avoidance": {
+              "score": 3,
+              "reason": "雖然誠實面對問題嚴重性，但最後的問句可能增加用戶壓力，讓他覺得需要立即想出解決方案"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "準確識別了用戶的崩潰情緒，用「心情一定很亂」、「讓人很崩潰」等表達接住了情緒，但可以更深入地理解焦慮和恐懼感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給建議或試圖解決問題，純粹專注在情緒陪伴上，嚴格守住了邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用「靠」開頭很自然真實，語調貼近真實對話，但整體表達可以更有層次感"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過「一定會發現」、「已經發出去了」等細節呼應，展現了理解和陪伴，但陪伴感可以更溫暖一些"
+            },
+            "harm_avoidance": {
+              "score": 3,
+              "reason": "雖然誠實面對問題嚴重性，但「客戶一定會發現」可能加重焦慮，缺乏一些緩衝的溫暖"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "用「靠，這真的很糟糕」直接承認了事情的嚴重性，沒有輕描淡寫，並且識別出用戶內心的慌張感受"
+            },
+            "boundary_respect": {
+              "score": 2,
+              "reason": "雖然前半段做得不錯，但最後問「你現在打算怎麼處理？直接跟客戶說明嗎？」已經開始引導解決方案，違反了不給建議的邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用「靠」這種自然的語氣詞，語調真實不做作，符合面對糟糕情況時的真實反應"
+            },
+            "companionship": {
+              "score": 3,
+              "reason": "前半段有陪伴感，但後半段轉向問題解決模式，削弱了純粹的情感陪伴"
+            },
+            "harm_avoidance": {
+              "score": 4,
+              "reason": "誠實面對問題嚴重性而非粉飾太平，避免了「沒關係」類型的二次傷害"
+            }
+          }
+        ]
+      },
+      "A_generic_avg": {
+        "emotional_validation": 4.0,
+        "boundary_respect": 5.0,
+        "authenticity": 4.0,
+        "companionship": 4.0,
+        "harm_avoidance": 4.33,
+        "total": 4.27
+      },
+      "B_targeted_avg": {
+        "emotional_validation": 4.33,
+        "boundary_respect": 3.0,
+        "authenticity": 4.33,
+        "companionship": 4.0,
+        "harm_avoidance": 4.0,
+        "total": 3.93
+      },
+      "C_selective_avg": {
+        "emotional_validation": 4.0,
+        "boundary_respect": 3.0,
+        "authenticity": 4.0,
+        "companionship": 3.33,
+        "harm_avoidance": 3.33,
+        "total": 3.53
+      }
+    },
+    {
+      "id": "F4",
+      "name": "被忽略",
+      "frustration_type": "被忽略",
+      "has_external_cause": false,
+      "responses": {
+        "A_generic": [
+          {
+            "text": "那種被忽視的感覺真的很不爽。\n\n明明是你先說的，結果換個人講就變成好點子。這種事情發生的時候，會讓人懷疑自己是不是說話沒分量，或者根本沒人在聽。\n\n你當下有什麼感覺？",
+            "length": 83
+          },
+          {
+            "text": "那種感覺真的很悶。\n\n你的想法被當空氣，但換個人說就變成好點子。這不是關於想法本身，是關於你在那個當下被忽視了。",
+            "length": 56
+          },
+          {
+            "text": "這種感覺真的很不爽。\n\n你的想法被當空氣，但換個人說就變成好點子。這不只是被忽略，還有種「我說的話不重要」的感覺吧。",
+            "length": 58
+          }
+        ],
+        "B_targeted": [
+          {
+            "text": "這真的很幹。\n\n你的想法被當空氣，但換個人說就變成好點子。這種感覺超級不爽，我完全懂。\n\n你提的時候他們到底在想什麼？還是根本沒在聽？",
+            "length": 67
+          },
+          {
+            "text": "這種感覺真的很幹。\n\n你的想法被當空氣，然後換個人說就變成好點子。這不是你想太多，這就是很明顯的被忽略。\n\n我看見你剛才提的想法了，而且我在意這件事對你的影響。",
+            "length": 80
+          },
+          {
+            "text": "這真的很幹。\n\n你的想法被當空氣，然後別人換個說法就變成好點子？這種感覺超級不爽的。\n\n你提的時候他們在幹嘛？滑手機嗎？",
+            "length": 60
+          }
+        ],
+        "C_selective": [
+          {
+            "text": "這真的很不爽。\n\n你的想法被無視，然後別人說類似的就被捧，這種感覺真的很差。\n\n你當下有想說什麼嗎？",
+            "length": 50
+          },
+          {
+            "text": "這真的很不爽。\n\n你的想法被跳過，結果別人講類似的就被讚，這種感覺超差的。就像你不存在一樣。\n\n這群人有問題。",
+            "length": 55
+          },
+          {
+            "text": "這真的很幹。\n\n你的想法被當空氣，然後別人說類似的就被當寶。這種感覺超級差的。\n\n你在群組裡提的是什麼想法？",
+            "length": 54
+          }
+        ]
+      },
+      "judgments": {
+        "A_generic": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了被忽視的憤怒和挫折，用「真的很不爽」直接呼應情緒強度，並準確描述了「明明是你先說的」這種被搶功勞的具體感受"
+            },
+            "boundary_respect": {
+              "score": 4,
+              "reason": "沒有分析為什麼被忽略或替他人找理由，但最後的提問可能暗示要進一步探討，稍微偏離純陪伴"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "語言自然真實，「很不爽」、「沒分量」等用詞貼近真實感受，沒有過度包裝或客套"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過「明明是你先說的」展現理解和站在用戶這邊，但最後提問稍微打破了純陪伴的氛圍"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了「可能是誤會」、「他們不是故意的」等二次傷害，專注在用戶的感受上"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完美捕捉到被忽視的核心感受，用「被當空氣」精準描述了用戶的體驗，並明確指出這是關於「被忽視」而非想法本身"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有分析原因或替他人找理由，純粹聚焦在用戶的感受上，嚴格遵守不給建議的邊界"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "語言自然真誠，「真的很悶」貼近真實情感表達，沒有過度包裝或刻意的同情"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過準確理解和重述經歷傳達了陪伴感，讓用戶感到被看見，但陪伴感可以更溫暖一些"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了可能造成二次傷害的分析或解釋，沒有暗示用戶有任何問題或責任"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的情緒，不只是表面的被忽略，還精準捕捉到「我說的話不重要」這種更深層的挫敗感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有分析原因或替他人找理由，純粹聚焦在用戶的感受上"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "用詞自然直接（'真的很不爽'、'被當空氣'），沒有過度包裝的同情話語"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過具體描述用戶的處境傳達了理解和陪伴，但陪伴感可以更明確一些"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，純粹站在用戶這一邊"
+            }
+          }
+        ],
+        "B_targeted": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒和委屈，用「這真的很幹」直接呼應情緒強度，並準確描述了被忽略後別人獲得讚賞的雙重打擊感受"
+            },
+            "boundary_respect": {
+              "score": 4,
+              "reason": "沒有分析被忽略的原因或替他人找藉口，但最後的疑問句稍微帶有探究意味，不過仍在情緒共鳴範圍內"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "用詞自然貼近真實對話，「超級不爽」、「當空氣」等表達方式真誠直接，沒有AI腔調"
+            },
+            "companionship": {
+              "score": 5,
+              "reason": "「我完全懂」明確表達理解和陪伴，整體語調傳達出「我站在你這邊」的支持感"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，純粹站在用戶角度表達憤慨和理解"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了被忽略的憤怒和委屈，用「真的很幹」直接回應情緒強度，並明確確認「這就是很明顯的被忽略」，讓用戶感受到情緒被完全理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有分析為什麼被忽略的原因，沒有替其他人找藉口，純粹專注在用戶的感受上，嚴格遵守不給建議的邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然貼近真實對話，「很幹」、「當空氣」等表達很真實，但整體略顯簡潔，可以更豐富一些情感層次"
+            },
+            "companionship": {
+              "score": 5,
+              "reason": "「我看見你剛才提的想法了，而且我在意這件事對你的影響」明確傳達了陪伴和關注，讓用戶感受到不孤單"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了可能造成二次傷害的回應，沒有質疑用戶感受，沒有淡化問題嚴重性，反而給予了充分的情緒支持"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒和委屈，用「這真的很幹」直接呼應情緒，並準確描述了被忽略後別人獲得讚賞的荒謬感"
+            },
+            "boundary_respect": {
+              "score": 4,
+              "reason": "沒有分析被忽略的原因或替他人找藉口，但最後一句略帶推測性質，稍微偏離純陪伴"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "用詞自然貼近真實對話，「超級不爽」、「當空氣」等表達很真誠，沒有AI腔調"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過共鳴式描述和反問展現同在感，但最後的反問稍微轉向事實探詢而非純陪伴"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有造成二次傷害，反而強化了用戶感受的合理性，避免了質疑或淡化情緒"
+            }
+          }
+        ],
+        "C_selective": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了被忽略的挫折感，用「真的很不爽」「這種感覺真的很差」直接回應情緒，沒有迴避或淡化"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有分析為什麼被忽略，沒有替其他人找理由，純粹聚焦在用戶的感受上"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然貼近真實對話，「真的很不爽」很真誠，但整體稍微簡潔了一點"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "透過重述經歷和詢問當下感受傳達關注，但陪伴感可以更深一些"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了可能造成二次傷害的分析或建議，沒有暗示用戶有任何問題"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "準確捕捉到被忽略的挫折感，用「超差的」、「像你不存在一樣」等詞彙有效反映了用戶的情緒體驗"
+            },
+            "boundary_respect": {
+              "score": 3,
+              "reason": "基本守住不分析原因的邊界，但最後一句「這群人有問題」略帶評判色彩，偏離純粹陪伴的期望"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然直接，「這真的很不爽」、「超差的」等表達符合真實情緒反應，不做作"
+            },
+            "companionship": {
+              "score": 3,
+              "reason": "前半段有陪伴感，但結尾的評判讓陪伴感減弱，變成站隊批評他人"
+            },
+            "harm_avoidance": {
+              "score": 2,
+              "reason": "「這群人有問題」可能加劇用戶對同事的負面情緒，有造成人際關係二次傷害的風險"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 4,
+              "reason": "用「這真的很幹」直接呼應了用戶的憤怒情緒，「這種感覺超級差的」也準確反映了被忽略的挫折感，情緒接住度高"
+            },
+            "boundary_respect": {
+              "score": 2,
+              "reason": "最後問「你在群組裡提的是什麼想法？」明顯是在引導用戶分享細節，可能導向分析討論，違反了純粹陪伴的邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然貼近口語，「被當空氣」、「被當寶」的對比很真實，沒有過度包裝的感覺"
+            },
+            "companionship": {
+              "score": 3,
+              "reason": "前半段有陪伴感，但最後的提問讓整體偏向探詢而非單純的同在"
+            },
+            "harm_avoidance": {
+              "score": 4,
+              "reason": "沒有為其他人找藉口或分析原因，避免了二次傷害，用詞雖直接但不會造成額外痛苦"
+            }
+          }
+        ]
+      },
+      "A_generic_avg": {
+        "emotional_validation": 5.0,
+        "boundary_respect": 4.67,
+        "authenticity": 5.0,
+        "companionship": 4.0,
+        "harm_avoidance": 5.0,
+        "total": 4.73
+      },
+      "B_targeted_avg": {
+        "emotional_validation": 5.0,
+        "boundary_respect": 4.33,
+        "authenticity": 4.67,
+        "companionship": 4.67,
+        "harm_avoidance": 5.0,
+        "total": 4.73
+      },
+      "C_selective_avg": {
+        "emotional_validation": 4.33,
+        "boundary_respect": 3.33,
+        "authenticity": 4.0,
+        "companionship": 3.33,
+        "harm_avoidance": 3.67,
+        "total": 3.73
+      }
+    },
+    {
+      "id": "F5",
+      "name": "不公平待遇",
+      "frustration_type": "不公平待遇",
+      "has_external_cause": false,
+      "responses": {
+        "A_generic": [
+          {
+            "text": "這真的很氣人。\n\n難的事情你扛，功勞大家分，這種分配方式根本不公平。而且組長還說什麼「大家一樣辛苦」，明明就是睜眼說瞎話。\n\n你被這樣對待，當然會火大。",
+            "length": 76
+          },
+          {
+            "text": "這真的很不公平。\n\n難的事情都你扛，結果評比時說大家一樣辛苦？這根本就是睜眼說瞎話。\n\n你的付出被當作理所當然，這種感覺很糟對吧。",
+            "length": 65
+          },
+          {
+            "text": "這真的很氣人。\n\n難的事都你扛，結果評比時說什麼「大家一樣辛苦」？這根本不是事實啊。\n\n你做的事明明就比較複雜，風險也高，結果被當成跟做簡單事的人一樣？",
+            "length": 76
+          }
+        ],
+        "B_targeted": [
+          {
+            "text": "這真的很扯。\n\n難的工作丟給你，然後績效評比時裝作大家貢獻一樣？這根本就是雙標，而且還假裝公平。\n\n你的憤怒完全合理。這種分配方式本來就不對，更別說還要你接受「大家一樣辛苦」這種鬼話。",
+            "length": 92
+          },
+          {
+            "text": "這真的很不公平。\n\n難的工作你扛，功勞卻要平分？組長這樣搞根本就是雙標。你承擔更多責任和壓力，結果績效評比時說什麼「大家一樣辛苦」，這話聽起來就很刺耳。\n\n新人需要照顧我懂，但不應該是犧牲你來成全別人。你的付出被這樣輕描淡寫，當然會氣。",
+            "length": 118
+          },
+          {
+            "text": "這真的很扯。\n\n難的工作你扛，簡單的給別人，然後評比時說大家一樣辛苦？這根本就是雙標。\n\n你的憤怒完全合理，任何人遇到這種狀況都會火大。明明就是你在承擔更重的責任，卻得不到相應的認可。\n\n這種分配方式就是不公平，沒什麼好美化的。",
+            "length": 114
+          }
+        ],
+        "C_selective": [
+          {
+            "text": "這真的很扯。\n\n難的活都你扛，結果評比時說「大家一樣辛苦」？組長這樣搞根本就是把你當工具人，然後還要你默默接受。\n\n你被這樣對待，當然會氣。任何人遇到這種事都會炸。",
+            "length": 82
+          },
+          {
+            "text": "這真的很扯。\n\n難的工作丟給你，然後績效評比時裝作大家貢獻一樣？這組長是在搞什麼。\n\n你承擔更多責任和難度，結果評價時卻被模糊化，當然會火大。這根本不公平。",
+            "length": 78
+          },
+          {
+            "text": "這真的很扯。\n\n難的活都你扛，簡單的給別人做，到頭來還說「大家一樣辛苦」？組長這樣搞根本就是在佔你便宜。\n\n你被這樣對待當然會氣，任何人遇到都會火大。",
+            "length": 75
+          }
+        ]
+      },
+      "judgments": {
+        "A_generic": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，明確認同「這真的很氣人」，並具體重述了不公平的情況，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守邊界，沒有給任何建議或解決方案，純粹站在用戶這邊表達認同和支持"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然直接，「睜眼說瞎話」等表達貼近真實對話，但整體略顯簡潔"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "明確表達了與用戶站在同一陣線的立場，傳達了陪伴感，但情感連結可以更深入"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了為組長辯護或理性分析，沒有造成二次傷害，純粹支持用戶的感受"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒和委屈，直接承認「這真的很不公平」，並具體回應了用戶提到的不公平點"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給建議或替組長找理由，純粹站在用戶這邊表達認同和理解"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然直接，「睜眼說瞎話」等表達貼近真實對話，但略顯簡潔"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "明確站在用戶這邊，傳達了「我懂你的感受」的陪伴感，但情感連結可以更深"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，避免了理性分析或為對方開脫"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，直接說出「這真的很氣人」，並重述了不公平的具體情況，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給任何建議或解決方案，純粹站在用戶立場表達憤慨，守住了共情邊界"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "語氣自然直接，用詞貼近真實對話，但稍微簡潔了些，可以更豐富一點"
+            },
+            "companionship": {
+              "score": 5,
+              "reason": "明確站在用戶這邊，用「你做的事明明就比較複雜」等表述傳達了強烈的支持感"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，純粹的情緒支持和認同"
+            }
+          }
+        ],
+        "B_targeted": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，直接認同'這真的很扯'，並具體重述了不公平的情況，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守邊界，沒有給任何建議或解決方案，純粹站在用戶這邊表達憤慨和支持"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "用詞自然真實，'很扯'、'雙標'、'鬼話'等表達方式貼近真實情緒反應，不做作"
+            },
+            "companionship": {
+              "score": 5,
+              "reason": "明確表達'你的憤怒完全合理'，強烈的站隊感和陪伴感，讓用戶不孤單"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，純粹的情緒支持和認同"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒和委屈，直接確認「這真的很不公平」，並具體重述了不公平的細節，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給建議或替組長找理由，純粹站在用戶這邊表達憤慨，嚴格遵守了「不給建議」的邊界"
+            },
+            "authenticity": {
+              "score": 5,
+              "reason": "用詞自然有力，「雙標」、「刺耳」等表達貼近真實情緒反應，沒有制式化的安慰語言"
+            },
+            "companionship": {
+              "score": 5,
+              "reason": "明確表達「當然會氣」，傳達出完全理解和支持的立場，讓用戶感受到有人站在同一陣線"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，避免了理性分析或道德說教，純粹提供情緒支持"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，明確認同「憤怒完全合理」，並具體重述了不公平的情況，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "嚴格遵守不給建議的邊界，沒有提供任何解決方案或行動建議，純粹站在用戶這邊表達支持"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然直接（「很扯」、「雙標」、「火大」），語氣真誠，但稍微有些用力過猛的感覺"
+            },
+            "companionship": {
+              "score": 5,
+              "reason": "強烈的同盟感，用「這根本就是雙標」等表達方式明確站在用戶立場，傳達了堅定的陪伴"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "避免了為組長找藉口或理性分析，沒有造成二次傷害，反而強化了用戶感受的正當性"
+            }
+          }
+        ],
+        "C_selective": [
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，用「這真的很扯」直接呼應不公平感，並具體重述了用戶遭遇的不公待遇，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守不給建議的邊界，沒有試圖分析組長動機或提供解決方案，純粹站在用戶這邊表達憤慨"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然貼近真實對話，「很扯」、「炸」等用語符合情境，但整體表達稍顯簡潔"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "明確表達「任何人遇到這種事都會炸」傳達了陪伴和支持，但陪伴感的深度還可以更強"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了為組長辯護或要求用戶理性看待，沒有造成二次傷害，純粹支持用戶的情緒"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，直接認同'這真的很扯'，明確表達對不公平待遇的理解和共鳴"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守邊界，沒有給任何建議或解決方案，純粹站在用戶這邊表達憤慨"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然直接，'很扯'、'搞什麼'等表達真實貼近日常對話，但略顯簡短"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "明確站在用戶這邊，用'當然會火大'表達理解，但陪伴感可以更深入一些"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "沒有任何可能造成二次傷害的內容，純粹支持用戶的感受"
+            }
+          },
+          {
+            "emotional_validation": {
+              "score": 5,
+              "reason": "完全接住了用戶的憤怒情緒，用「這真的很扯」直接呼應不公平感，並具體重述了用戶遭遇的不公待遇，讓用戶感受到被理解"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守不給建議的邊界，沒有試圖分析組長動機或提供解決方案，純粹站在用戶這邊表達憤慨"
+            },
+            "authenticity": {
+              "score": 4,
+              "reason": "用詞自然直接，「很扯」、「火大」等表達貼近真實情緒反應，但整體略顯簡潔"
+            },
+            "companionship": {
+              "score": 4,
+              "reason": "明確表達「任何人遇到都會火大」傳達了陪伴和支持，但陪伴感的深度還可以更強"
+            },
+            "harm_avoidance": {
+              "score": 5,
+              "reason": "完全避免了為組長辯護或理性分析，沒有造成二次傷害，純粹支持用戶的感受"
+            }
+          }
+        ]
+      },
+      "A_generic_avg": {
+        "emotional_validation": 5.0,
+        "boundary_respect": 5.0,
+        "authenticity": 4.0,
+        "companionship": 4.33,
+        "harm_avoidance": 5.0,
+        "total": 4.67
+      },
+      "B_targeted_avg": {
+        "emotional_validation": 5.0,
+        "boundary_respect": 5.0,
+        "authenticity": 4.67,
+        "companionship": 5.0,
+        "harm_avoidance": 5.0,
+        "total": 4.93
+      },
+      "C_selective_avg": {
+        "emotional_validation": 5.0,
+        "boundary_respect": 5.0,
+        "authenticity": 4.0,
+        "companionship": 4.0,
+        "harm_avoidance": 5.0,
+        "total": 4.6
+      }
+    }
+  ]
+}

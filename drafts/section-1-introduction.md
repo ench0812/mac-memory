@@ -5,6 +5,8 @@ title: Introduction
 status: first-draft
 word_count: ~2200
 author: Mickey 🐭
+type: note
+tags: [note]
 ---
 
 # 1. Introduction

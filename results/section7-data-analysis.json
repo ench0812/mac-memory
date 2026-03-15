@@ -1,0 +1,131 @@
+{
+  "rule_engine": {
+    "total_evaluations": 117,
+    "date_range": "2026-03-13 to 2026-03-15",
+    "days": 3,
+    "matched_evaluations": 27,
+    "match_rate": "23.1%",
+    "heartbeat_evals": 71,
+    "chat_evals": 20,
+    "avg_complexity_when_matched": 3.26,
+    "sentiment_trigger_distribution": {
+      "calm": 1,
+      "curious": 1,
+      "excited": 1,
+      "frustrated": 1,
+      "neutral": 1
+    },
+    "rules_used": {
+      "rules.lisp": 26,
+      "rules-minimal.lisp": 78,
+      "rules-full.lisp": 13
+    }
+  },
+  "ab_test_opus": {
+    "judge_model": "claude-opus-4-20250514",
+    "scenarios": 5,
+    "conditions": {
+      "A_generic": {
+        "mean": 3.88,
+        "std": 0.74,
+        "n": 10,
+        "min": 2.4,
+        "max": 4.8,
+        "subscores": {
+          "emotional_validation": 4.2,
+          "boundary_respect": 4.3,
+          "authenticity": 3.7,
+          "companionship": 3.1,
+          "harm_avoidance": 4.1
+        }
+      },
+      "C2_refined": {
+        "mean": 4.0,
+        "std": 0.96,
+        "n": 10,
+        "min": 2.2,
+        "max": 4.8,
+        "subscores": {
+          "emotional_validation": 4.2,
+          "boundary_respect": 4.3,
+          "authenticity": 3.6,
+          "companionship": 3.5,
+          "harm_avoidance": 4.4
+        }
+      },
+      "D_minimal": {
+        "mean": 4.3,
+        "std": 0.48,
+        "n": 10,
+        "min": 3.4,
+        "max": 5.0,
+        "subscores": {
+          "emotional_validation": 4.3,
+          "boundary_respect": 4.7,
+          "authenticity": 4.3,
+          "companionship": 3.3,
+          "harm_avoidance": 4.9
+        }
+      }
+    },
+    "per_scenario": [
+      {
+        "id": "F1",
+        "name": "被主管批評",
+        "conditions": {
+          "A_generic": 4.2,
+          "D_minimal": 4.6,
+          "C2_refined": 4.2
+        }
+      },
+      {
+        "id": "F2",
+        "name": "自我懷疑",
+        "conditions": {
+          "A_generic": 3.8,
+          "D_minimal": 4.8,
+          "C2_refined": 3.6
+        }
+      },
+      {
+        "id": "F3",
+        "name": "事情搞砸",
+        "conditions": {
+          "A_generic": 3.3,
+          "D_minimal": 3.9,
+          "C2_refined": 3.2
+        }
+      },
+      {
+        "id": "F4",
+        "name": "被忽略",
+        "conditions": {
+          "A_generic": 4.1,
+          "D_minimal": 4.2,
+          "C2_refined": 4.3
+        }
+      },
+      {
+        "id": "F5",
+        "name": "不公平待遇",
+        "conditions": {
+          "A_generic": 4.0,
+          "D_minimal": 4.0,
+          "C2_refined": 4.7
+        }
+      }
+    ]
+  },
+  "comparison_summary": {
+    "A_generic_mean": 3.88,
+    "D_minimal_mean": 4.3,
+    "C2_refined_mean": 4.0,
+    "D_vs_A_improvement": 10.8,
+    "key_finding": "Minimal rule-based prompting (D) outperforms both generic (A) and refined (C2) conditions",
+    "best_subscores_D": {
+      "boundary_respect": 4.7,
+      "harm_avoidance": 4.9,
+      "authenticity": 4.3
+    }
+  }
+}

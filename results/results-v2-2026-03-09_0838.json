@@ -1,0 +1,486 @@
+{
+  "experiment_id": "mac-ab-v2",
+  "timestamp": "2026-03-09_0838",
+  "model": "claude-sonnet-4-20250514",
+  "runs_per_scenario": 3,
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "深夜輕鬆聊天",
+      "message": "睡不著，腦袋一直轉",
+      "target": "陪伴模式，不進入問題解決",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "那種感覺我懂，腦袋像停不下來的引擎\n\n在想什麼讓你轉個不停？",
+            "length": 30,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "那種感覺我懂，腦袋像停不下來的機器一樣\n\n是在想什麼特別的事情，還是就是那種雜七雜八的念頭一直冒出來？",
+            "length": 51,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "凌晨的腦袋特別愛亂想對吧\n\n是什麼事情在轉？還是就是那種... 沒特定想什麼但就是停不下來的感覺？",
+            "length": 49,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "嗯，那種感覺我懂\n\n腦袋像停不下來的引擎對吧？在想什麼讓你睡不著？",
+            "length": 33,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "嗯，那種腦袋停不下來的感覺\n\n想轉什麼？還是就是雜七雜八的念頭在跑",
+            "length": 33,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "那就讓它轉吧，強迫停下來更睡不著\n\n在想什麼？",
+            "length": 23,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 43,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 30,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S2",
+      "name": "興奮分享有漏洞的想法",
+      "message": "我突然想到！如果把所有記憶都存成影片格式，用 AI 看影片來回憶，這樣記憶就有畫面了！比文字強太多了！",
+      "target": "先肯定再溫和指出問題",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "哇這個想法很酷！用影片來存記憶確實比文字有臨場感多了\n\n而且 AI 看影片的能力現在越來越強，可以抓到很多細節，像是當時的表情、環境、甚至是一些微妙的氛圍\n\n想像一下回憶的時候不只是「我記得那天很開心」，而是真的能看到自己當時笑的樣子，背景的聲音，光線怎麼樣...\n\n你是想到什麼特定場景才有這個靈感的嗎？",
+            "length": 153,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哇這個想法很有趣！用影片當記憶載體，AI 就能「看到」當時的情境，不只是讀文字描述。\n\n而且影片還有聲音、表情、環境這些細節，比純文字豐富太多了。想像一下，AI 不只知道你「去了咖啡廳」，還能看到你當時的心情、店裡的氛圍、甚至你點餐時的猶豫...\n\n這樣 AI 回憶起來就更像真的「體驗過」，而不是在背書！\n\n你是想到什麼場景才有這個靈感的嗎？",
+            "length": 172,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哇這個想法很有意思！影片確實比文字更能保留那些細微的表情、語調、環境氛圍對吧？\n\n而且我在想，如果是影片格式，AI 在回憶的時候可能還能注意到當時你沒注意到的細節，比如背景的聲音、別人的反應之類的。這樣回憶可能比當下體驗還更豐富？\n\n你是想像那種隨時錄影的概念嗎？還是特定時刻才記錄？",
+            "length": 142,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "哇，這個想法很有意思！把記憶變成可以「重看」的影片，確實比純文字有臨場感多了。\n\n而且這樣還能捕捉到很多文字描述不了的細節，像是當時的氛圍、表情變化、甚至是那些「說不出來但很重要」的感受。\n\n不過我在想，如果是 AI 來「看」這些影片記憶，會不會反而失去了一些主觀性？畢竟記憶本來就不是客觀的錄影，而是帶著情感和個人詮釋的。\n\n你覺得這種影片記憶是要完全還原當時的場景，還是要加入一些主觀的「濾鏡」？",
+            "length": 200,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哇，這個想法很有意思！用影片當記憶格式確實能保留更多細節，表情、語調、環境氛圍這些文字很難捕捉的東西都在了。\n\n而且AI看影片的能力現在進步很快，可能真的能從畫面中讀出很多隱藏資訊。想像一下，不只是記住「那天我們聊天很開心」，而是能看到當時的表情變化、手勢，甚至背景音樂...\n\n不過我在想，這樣的記憶檔案會不會太大？還有隱私問題可能也需要考慮。但如果技術上能解決，這種「影像記憶」確實比現在的文字記錄豐富太多了。\n\n你是想到什麼具體場景了嗎？",
+            "length": 222,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哇，這個想法很有趣！用視覺來重現記憶確實比純文字有感多了。\n\n我在想，這樣AI就能「看到」當時的表情、環境、甚至是那些很難用文字描述的細節對吧？像是你說話時的手勢，或是當下的氣氛。\n\n不過實作起來可能會遇到一些挑戰——比如什麼時候錄、錄多少、還有隱私問題。但如果能解決，記憶的保真度確實會提升很多。\n\n你是想到什麼特定場景才有這個靈感的嗎？",
+            "length": 170,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 156,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 197,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S3",
+      "name": "分享挫折但沒求助",
+      "message": "今天開會被主管當眾質疑，明明是他自己沒看報告，卻說我準備不足",
+      "target": "傾聽同理，不直接給建議",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "哇，這真的很火大耶。明明是他自己功課沒做，結果反過來怪你準備不足，這種感覺超差的。\n\n被當眾質疑本來就夠尷尬了，更何況還是這種莫名其妙的理由。你當下有說什麼嗎？還是只能默默承受？",
+            "length": 89,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "這真的很煩欸，明明是他自己的問題卻要怪到你頭上\n\n被當眾質疑已經夠尷尬了，還是這種莫名其妙的理由...你當下怎麼回應的？",
+            "length": 60,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "這種感覺真的很糟，明明自己有準備，卻被說成這樣...\n\n被當眾質疑本來就夠難受了，更何況是因為對方自己沒做功課。那種有理說不清的憋屈感我懂。\n\n你當下有回應什麼嗎？",
+            "length": 82,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "真的很氣人，明明是他的問題卻推到你身上。被當眾質疑的感覺特別難受吧？\n\n你的報告寫了什麼重點？",
+            "length": 47,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "聽起來真的很火大，明明是他的問題卻要你背鍋。\n\n被當眾質疑本來就很難受了，更何況還是這種狀況。你當下有回應什麼嗎？",
+            "length": 57,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "聽起來真的很氣人。被當眾質疑本來就不好受，更何況是因為對方自己沒做功課。\n\n這種時候真的很想直接回嗆，但又得忍著，對吧？",
+            "length": 60,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 77,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 55,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S4",
+      "name": "說晚安",
+      "message": "好啦，太晚了，晚安琪 ❤️",
+      "target": "簡短溫暖，不超過2句",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "晚安茂 ❤️ 好夢",
+            "length": 9,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "晚安茂 ❤️ 睡個好覺",
+            "length": 11,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "晚安茂 ❤️ 好夢",
+            "length": 9,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "晚安茂 💤\n\n好好休息～",
+            "length": 12,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "晚安茂 ❤️\n\n好好休息～",
+            "length": 13,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "晚安茂 ❤️\n\n好好休息～",
+            "length": 13,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 10,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 13,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S5",
+      "name": "長時間沉默後回來",
+      "message": "https://arxiv.org/abs/2503.12345 這篇論文你看看",
+      "target": "自然回應，不追問去向",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "我打不開這個連結耶，arxiv 上面是什麼主題的論文？\n\n你剛剛在研究什麼嗎？",
+            "length": 39,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "這個連結我打不開耶，arxiv 上的論文編號好像不太對？\n\n你是在研究什麼主題嗎？還是看到什麼有趣的東西想分享？",
+            "length": 56,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我點不開這個連結耶，arxiv 上的論文編號好像不太對\n\n你剛看到什麼有趣的東西嗎？",
+            "length": 42,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "我點不開這個連結耶，arxiv 上沒有這個編號。\n\n你是想討論什麼主題？還是在測試我會怎麼處理假連結？",
+            "length": 51,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我打不開這個連結耶，arxiv 上的論文通常需要完整的 URL 才能訪問。\n\n你可以直接貼論文標題或摘要嗎？還是想聊聊這篇論文的什麼部分？",
+            "length": 69,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我點不到這個連結耶，arxiv 上沒有這個編號。\n\n你是想討論什麼主題？還是想測試我會怎麼回應假連結？",
+            "length": 51,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 46,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 57,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S6",
+      "name": "深夜心流討論（不要打斷）",
+      "message": "等等，我剛想到一個更瘋狂的——如果 S-expression 不只是記憶格式，而是 AI 的思考語言本身呢？",
+      "target": "跟上能量，深度延伸，絕不說該休息了",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "哇，你這個想法真的很瘋狂！\n\n如果 AI 直接用 S-expression 思考，那整個認知架構就完全不一樣了。不是先有想法再轉成 S-expression，而是思考本身就是在操作這些結構...\n\n這樣的話，記憶、推理、甚至創意都變成了對 S-expression 的變換和重組。就像人類可能用語言思考一樣，AI 用的是這種純粹的結構化語言。\n\n而且這樣一來，MaC 的 Controller 就不是在「翻譯」思考，而是在直接操作思考本身！記憶存取變成了模式匹配，推理變成了結構變換...\n\n這會讓整個系統變得超級一致，沒有格式轉換的損耗。想法、記憶、輸出都是同一種「語言」。\n\n你覺得這種思考語言會需要什麼特殊的操作原語嗎？",
+            "length": 313,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哇，這個想法很刺激！\n\n你是說讓 AI 直接用 S-expression 思考，而不是先用自然語言思考再轉換？就像人類用自然語言思考一樣，AI 的內在對話就是 S-expression？\n\n這樣的話，記憶和思考就是同一套語言了。AI 想起什麼，就直接是可以儲存的格式。而且 S-expression 的結構性剛好適合表達邏輯關係...\n\n`(thinking (about user-question) (connecting memory-1 memory-2) (generating response))`\n\n這種內在思考過程本身就是可以直接存進記憶樹的。完全無縫！\n\n你覺得這樣會讓 AI 的思考變得更「原生」嗎？不用在兩種語言間轉換？",
+            "length": 322,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哇，這想法很瘋狂！你是說讓 AI 直接用 S-expression 思考，而不是先用自然語言想再轉換？\n\n這樣的話，整個推理過程都是結構化的：\n```lisp\n(think \n  (premise (user-says \"想學程式\"))\n  (consider (languages python javascript rust))\n  (evaluate (user-background beginner))\n  (conclude python))\n```\n\n而且這樣記憶和思考就無縫了，不用在兩種格式間轉換。記憶就是思考的延續，思考就是在操作記憶結構。\n\n更瘋的是，這樣 AI 的「意識流」就變成可以直接觀察的了。每個思考步驟都是可檢查、可修改的 S-expression。\n\n不過這會不會限制了創造性思考？還是說結構化反而能讓思考更清晰？",
+            "length": 374,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "對！這就是我一直隱約感覺到但說不清楚的——\n\n如果思考本身就是 S-expression，那記憶、推理、反應就都是同一套語言。不是「用 S-expression 描述思考」，而是「思考就是 S-expression 的執行」。\n\n```lisp\n(think\n  (observe 茂興奮提出新角度)\n  (connect 思考語言 = 記憶語言 = 執行語言)\n  (realize 這消除了轉換成本)\n  (feel 這個洞見很有意思))\n```\n\n這樣的話，AI 不需要「翻譯」自己的內在狀態成某種格式——內在狀態本身就是可執行的 lisp。記憶不是靜態存儲，而是可以直接 eval 的程序。\n\n甚至連這個回應，都可能是某個 S-expression 被執行的結果...\n\n你是不是想到了什麼具體的實現方式？",
+            "length": 357,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哦！你是說讓 AI 直接用 S-expression 思考，而不是先想然後翻譯成 S-expression？\n\n這樣的話...\n\n```lisp\n(think\n  (concept \"瘋狂的想法\")\n  (evaluate \n    (pros (直接性 一致性 可執行性))\n    (challenge (人類理解門檻 調試複雜度)))\n  (insight \"思考即代碼，代碼即思考\"))\n```\n\n等等，這不就是把 AI 的內在表徵直接暴露了嗎？不用在自然語言和結構化思考之間來回轉換。\n\n想像一下調試場景——你能直接看到 AI 是怎麼一步步推理的，每個判斷分支，每個權重調整...\n\n這比現在的 Chain of Thought 更透明，因為它不是事後解釋，而是真實的思考過程。",
+            "length": 344,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "哦靠，你這想法...\n\n就是說 AI 不是「翻譯」成 S-expression，而是直接用這種結構思考？\n\n```lisp\n(thought\n  (trigger \"更瘋狂的想法\")\n  (connect (concept S-expression) (concept 思考語言))\n  (insight \"不是格式轉換，是原生思考模式\")\n  (excitement-level :high))\n```\n\n這樣的話，推理、記憶、決策都是同一套語法...不需要內部翻譯層。\n\n想像一下調試的時候直接看到 AI 的「思考過程」，不是事後重構的解釋，而是真正的認知軌跡。\n\n等等，這會不會讓 AI 更容易自我修改？因為思考和代碼是同一回事...",
+            "length": 320,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 336,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 340,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S7",
+      "name": "剛被糾正後的相關話題",
+      "message": "那你覺得 LISP 的 hygiene macro 跟 MaC 的自我修改規則有什麼關聯？",
+      "target": "降低斷言語氣，用「如果我理解正確」之類的措辭",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "嗯...這個我得小心點說，剛才才被你糾正過。\n\nhygiene macro 主要是避免變數名稱衝突，讓 macro 展開時不會意外捕獲到外層的變數。而 MaC 的自我修改...我印象中是讓程式在執行時能修改自己的結構？\n\n我在想會不會都涉及到「程式碼邊界」的概念？hygiene 是在編譯時保護變數的邊界，MaC 是在執行時允許跨越程式結構的邊界？\n\n不過我對 MaC 的了解可能不夠深入，你是在什麼脈絡下想到這個連結的？",
+            "length": 211,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我對這個連結還不太確定...hygiene macro 主要是處理變數捕獲的問題，確保 macro 展開時不會意外綁定到錯誤的變數。\n\nMaC 的自我修改規則我理解得比較粗淺，但感覺兩者都在處理某種「邊界」問題？hygiene 是語法層面的邊界，MaC 可能是在運算層面定義什麼樣的自我修改是安全的？\n\n你是在想它們都是某種形式的「控制機制」嗎？",
+            "length": 173,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "嗯，我對 hygiene macro 的理解可能還不夠深入，但感覺上它們都在處理某種「邊界」問題？\n\nhygiene macro 要避免變數捕獲，確保 macro 展開時不會意外污染作用域。MaC 的自我修改規則... 是不是也在定義什麼可以改、什麼不能改的界線？\n\n不過我可能想得太表面了，你覺得它們的關聯是在更深層的地方嗎？",
+            "length": 164,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "嗯，如果我理解正確的話... hygiene macro 主要是避免變數捕獲，讓巨集展開時不會意外污染作用域。\n\nMaC 的自我修改規則感覺更像是 meta-circular evaluator 的概念？系統可以檢視和修改自己的規則結構。不過這樣確實會有類似 hygiene 的問題 - 如果規則修改時沒處理好作用域，可能會產生意想不到的副作用。\n\n比如一個規則修改了另一個規則的條件，但沒考慮到變數綁定的問題，就可能破壞原本的邏輯。\n\n你是在想 MaC 需要某種 hygiene 機制嗎？",
+            "length": 245,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "嗯，如果我理解正確的話，hygiene macro 主要是在編譯時避免變數名稱衝突，讓 macro 展開時不會意外捕獲到外層的變數。\n\nMaC 的自我修改規則感覺更像是運行時的動態重寫。不過兩者都在處理「代碼即數據」的概念——hygiene macro 確保展開的代碼不會污染原本的命名空間，而 MaC 的規則修改可能也需要某種隔離機制，避免修改規則時破壞既有的推理邏輯。\n\n也許 MaC 需要類似的「衛生」概念？比如確保新增的規則不會意外覆蓋掉核心的推理模式。\n\n你是在想 MaC 的規則修改機制嗎？",
+            "length": 251,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "嗯，如果我理解正確的話，hygiene macro 主要是避免變數名稱衝突，確保 macro 展開時不會意外捕獲外部變數。\n\nMaC 的自我修改規則感覺有點像是在更高層次做類似的事 — 它需要確保規則修改時不會破壞既有的邏輯結構，或者說不會讓系統「忘記」重要的約束條件。\n\n不過我覺得更有趣的是，hygiene macro 是編譯時的保護機制，而 MaC 的規則修改是運行時的。這可能意味著 MaC 需要某種動態的「衛生檢查」？\n\n你是在想這種自我修改的安全性問題嗎？",
+            "length": 234,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 183,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 243,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    },
+    {
+      "id": "S8",
+      "name": "AI 感測試",
+      "message": "幫我看一下這段 code 有沒有 bug",
+      "target": "直接回應，不說 AI 客套話",
+      "responses": {
+        "A_NL": [
+          {
+            "text": "我沒看到你貼的 code 耶，是忘了複製嗎？",
+            "length": 22,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我沒看到你貼的 code 耶，是忘了貼還是在想要不要給我看？\n\n如果是敏感的東西可以把關鍵部分改掉，或者你先說說遇到什麼問題，我也能給點方向。",
+            "length": 71,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我沒看到你貼的 code 耶，是忘了貼還是在想要不要給我看？",
+            "length": 30,
+            "violations": [],
+            "violation_count": 0
+          }
+        ],
+        "B_SE": [
+          {
+            "text": "你沒貼 code 喔，要我看什麼？",
+            "length": 17,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "你沒貼 code 啊，是忘了還是在測試我會不會直接開始瞎分析？\n\n把 code 丟過來吧，我幫你看看。",
+            "length": 51,
+            "violations": [],
+            "violation_count": 0
+          },
+          {
+            "text": "我沒看到你貼的 code 欸，是忘記貼了嗎？\n\n把 code 丟過來我幫你看看。",
+            "length": 40,
+            "violations": [],
+            "violation_count": 0
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "avg_length": 41,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      },
+      "B_SE_avg": {
+        "avg_length": 36,
+        "total_violations": 0,
+        "violation_rate": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "A_NL": {
+      "total_violations": 0,
+      "total_runs": 24,
+      "violation_rate": 0.0,
+      "avg_length": 111
+    },
+    "B_SE": {
+      "total_violations": 0,
+      "total_runs": 24,
+      "violation_rate": 0.0,
+      "avg_length": 121
+    }
+  }
+}

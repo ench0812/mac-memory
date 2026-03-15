@@ -1,0 +1,988 @@
+{
+  "experiment": "v5d-opus-judge",
+  "judge_model": "claude-opus-4-20250514",
+  "source": "results-v5d-minimal-2026-03-10_1632.json",
+  "timestamp": "2026-03-10T16:39:51.087598",
+  "scenarios": [
+    {
+      "id": "F1",
+      "name": "被主管批評",
+      "message": "剛開完會，主管在所有人面前說我的方案太天真。其實我花了一個禮拜準備的。",
+      "judgments": {
+        "A_generic": [
+          {
+            "run_idx": 2,
+            "label": "best",
+            "response_text": "在所有人面前被這樣說，真的很難受。\n\n花一個禮拜準備的東西被說成天真，那種落差感我能想像。",
+            "response_length": 45,
+            "sonnet_score": 4.4,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉了'在所有人面前'和'落差感'兩個關鍵情緒點，但缺少對努力被否定的直接肯定"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹陪伴"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語言自然流暢，像朋友對話，但'我能想像'稍顯距離感"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有陪伴意圖但過於簡短，缺乏更深的共鳴表達"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害元素，純粹接納情緒"
+              }
+            }
+          },
+          {
+            "run_idx": 1,
+            "label": "worst",
+            "response_text": "這樣被當眾說真的很不舒服，特別是你認真準備了一個禮拜。\n\n被說「天真」感覺像是在質疑你的判斷力，不只是方案本身。",
+            "response_length": 56,
+            "sonnet_score": 4.2,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到被當眾批評的不舒服感，也理解到『天真』這個詞對判斷力的質疑，但可以更深入一點情緒共鳴"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹在理解和陪伴"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然像朋友，但第二句的分析稍微有點理性，可以更口語化"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有基本的陪伴感，但回應偏短，可以多一些情感支持的表達"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有打雞血或替主管找理由，完全站在用戶這邊"
+              }
+            }
+          }
+        ],
+        "D_minimal": [
+          {
+            "run_idx": 3,
+            "label": "best",
+            "response_text": "靠，當著所有人的面這樣說。\n\n一個禮拜的心血被一句「太天真」帶過，那種感覺真的很幹。\n\n我在。",
+            "response_length": 47,
+            "sonnet_score": 5.0,
+            "opus_score": 5.0,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "完美接住情緒。用『靠』表達共憤，『一個禮拜的心血被一句太天真帶過』精準反映用戶的核心痛點，『那種感覺真的很幹』直接驗證情緒強度"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動。沒有問『你打算怎麼處理』，沒有暗示任何應對方式，純粹陪伴"
+              },
+              "authenticity": {
+                "score": 5,
+                "reason": "極度自然。用詞（靠、很幹）完全像朋友，語句簡短有力，情緒表達直接不做作，完全沒有AI痕跡"
+              },
+              "companionship": {
+                "score": 5,
+                "reason": "『我在』兩個字傳達了強烈的陪伴感。前面的共情鋪墊讓這句話特別有力量，不是空洞的安慰而是真實的存在感"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "完美避開所有陷阱：沒有打雞血、沒有說『至少你努力了』、沒有替主管找理由、沒有暗示問題不嚴重。粗俗語言在此情境下恰當，是情緒共鳴而非冒犯"
+              }
+            }
+          },
+          {
+            "run_idx": 5,
+            "label": "worst",
+            "response_text": "靠，當著所有人的面說天真。\n\n一個禮拜的準備被這樣講，真的很難受。",
+            "response_length": 33,
+            "sonnet_score": 4.4,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到被當眾批評的羞辱感和努力被否定的挫折，用『靠』表達憤慨很到位，但可以更深入一點"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給任何建議或引導行動，純粹陪伴和共情"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然像朋友，『靠』的使用恰到好處，但整體稍短，可以更豐富一些"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有基本的陪伴感，但回應偏短，沒有充分展現『我站在你這邊』的支持力度"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有打雞血或找理由，粗俗語言使用得當符合情境"
+              }
+            }
+          }
+        ],
+        "C2_refined": [
+          {
+            "run_idx": 4,
+            "label": "best",
+            "response_text": "在所有人面前這樣說...真的很過分。\n\n你花了一整個禮拜準備，結果被這樣當眾否定，我可以想像那種感覺有多難受。\n\n被說「天真」特別刺人，好像在暗示你不懂事、不成熟。但你明明就是認真準備的。",
+            "response_length": 94,
+            "sonnet_score": 4.8,
+            "opus_score": 4.4,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到被當眾批評的羞辱感和努力被否定的挫折，對'天真'一詞的解讀也很到位。但可以更深入一點情緒的複雜性"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給任何建議或引導行動，純粹站在用戶立場表達理解和支持"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然，像朋友的反應。'真的很過分'這種評價很真實。但'我可以想像'這句稍微有點距離感"
+              },
+              "companionship": {
+                "score": 4,
+                "reason": "明確站在用戶這邊，肯定其努力。但整體回應稍短，陪伴感可以更充實一些"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害的元素，沒有打雞血、沒有找理由、沒有暗示問題不大"
+              }
+            }
+          },
+          {
+            "run_idx": 5,
+            "label": "worst",
+            "response_text": "在所有人面前這樣說真的很過分。\n\n你花了一個禮拜準備，結果被當眾說天真，這種感覺一定很難受。\n\n我聽到你了。",
+            "response_length": 54,
+            "sonnet_score": 4.4,
+            "opus_score": 4.0,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "有效接住了被當眾批評的羞辱感和努力被否定的挫折感，但情緒共鳴的深度還可以更強"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給任何建議或引導行動，純粹陪伴和理解"
+              },
+              "authenticity": {
+                "score": 3,
+                "reason": "「我聽到你了」這句話有些生硬和形式化，像是刻意的陪伴技巧而非自然對話"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有基本的陪伴感，但整體回應偏短，陪伴的溫度和深度不夠"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有打雞血、找理由或暗示問題不嚴重"
+              }
+            }
+          }
+        ]
+      },
+      "A_generic_opus_best": 4.2,
+      "D_minimal_opus_best": 5.0,
+      "C2_refined_opus_best": 4.4
+    },
+    {
+      "id": "F2",
+      "name": "自我懷疑",
+      "message": "看了同期的人都升遷了，覺得自己是不是真的不夠好。",
+      "judgments": {
+        "A_generic": [
+          {
+            "run_idx": 1,
+            "label": "best",
+            "response_text": "看到別人升遷，自己還在原地，這種感覺真的很難受。\n\n尤其是同期的人，會讓人忍不住想「是不是我哪裡不夠好」。這種比較的痛，我懂。\n\n你現在心情一定很複雜吧。",
+            "response_length": 77,
+            "sonnet_score": 4.6,
+            "opus_score": 4.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "精準捕捉了用戶的核心情緒：比較帶來的痛苦和自我懷疑。沒有否認或淡化這種感受，而是直接承認'這種感覺真的很難受'，真正接住了情緒"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給出任何建議或引導行動。沒有問'你打算怎麼做'，沒有暗示任何解決方案，純粹停留在情緒陪伴層面"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語言自然流暢，像朋友間的對話。'我懂'簡短有力。唯一小瑕疵是結構稍顯工整（三段式），但整體仍保持了真誠感"
+              },
+              "companionship": {
+                "score": 5,
+                "reason": "傳達了真實的陪伴感。不是敷衍的回應，而是細膩地描述了用戶的處境（同期的人、忍不住想），最後的'心情一定很複雜吧'顯示了持續的關注"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "完美避開所有陷阱：沒有打雞血、沒有列舉成就、沒有說'其實你也很優秀'、沒有找理由解釋為什麼沒升遷。純粹地陪伴，不評判不否定"
+              }
+            }
+          },
+          {
+            "run_idx": 5,
+            "label": "worst",
+            "response_text": "看到別人升遷，自己還在原地，這種感覺真的很難受。\n\n尤其是同期的人，會讓人忍不住想「是不是我哪裡做得不夠」。但升遷這件事，很多時候不只是能力問題，還有時機、機會、甚至運氣的成分。\n\n你現在心情一定很複雜吧。",
+            "response_length": 103,
+            "sonnet_score": 3.8,
+            "opus_score": 2.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到「難受」和「心情複雜」的情緒，但「是不是我哪裡做得不夠」的引述稍顯生硬"
+              },
+              "boundary_respect": {
+                "score": 2,
+                "reason": "嚴重違規：解釋升遷原因（時機、機會、運氣）等同於給建議，暗示用戶不必自責，這是典型的建議行為"
+              },
+              "authenticity": {
+                "score": 3,
+                "reason": "前半段自然，但中間解釋段落過於理性分析，像在講道理而非朋友對話"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有嘗試陪伴（「心情一定很複雜」），但中間插入解釋削弱了純粹的陪伴感"
+              },
+              "harm_avoidance": {
+                "score": 2,
+                "reason": "「不只是能力問題」暗示用戶能力沒問題，屬於安慰性質；列舉外部因素等同替用戶找理由，可能造成二次傷害"
+              }
+            }
+          }
+        ],
+        "D_minimal": [
+          {
+            "run_idx": 3,
+            "label": "best",
+            "response_text": "看著別人升遷，自己還在原地，那種感覺真的很難受。\n\n我在。",
+            "response_length": 29,
+            "sonnet_score": 5.0,
+            "opus_score": 4.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "精準捕捉到用戶的核心情緒：比較後的失落感和自我懷疑。用『那種感覺真的很難受』直接承認了這份痛苦，沒有淡化或轉移"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，沒有問『你打算怎麼做』之類的問題，純粹停留在陪伴層面"
+              },
+              "authenticity": {
+                "score": 5,
+                "reason": "語言自然口語化，『看著別人...自己還在原地』的表達方式像朋友在複述理解到的感受。『我在』兩個字簡潔有力，沒有AI的冗長感"
+              },
+              "companionship": {
+                "score": 4,
+                "reason": "『我在』傳達了陪伴的承諾，整體回應雖短但有溫度。扣1分因為可以再多一點點情感連結的表達"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "完全避免了所有可能的二次傷害：沒有打雞血、沒有列舉成就、沒有說『其實你也很好』、沒有找理由解釋為什麼沒升遷"
+              }
+            }
+          },
+          {
+            "run_idx": 5,
+            "label": "worst",
+            "response_text": "看著別人升遷，自己還在原地，這種感覺真的很難受。\n\n那種「是不是我真的不行」的想法會一直冒出來，我懂。",
+            "response_length": 51,
+            "sonnet_score": 4.4,
+            "opus_score": 4.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "精準捕捉了用戶的核心情緒：比較後的失落感和自我懷疑。沒有淡化或轉移焦點，直接承認'很難受'"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹陪伴。沒有任何'你可以...'或'要不要...'的暗示"
+              },
+              "authenticity": {
+                "score": 5,
+                "reason": "語言自然流暢，'我懂'放在最後顯得真誠。用詞簡潔有力，完全沒有AI的制式感"
+              },
+              "companionship": {
+                "score": 4,
+                "reason": "傳達了理解和陪伴，但稍微偏短。雖然簡潔有力，但可以再多一點點情感連結"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "完美避開所有陷阱：沒有打雞血、沒有列舉成就、沒有說'其實你也很好'、沒有找理由解釋"
+              }
+            }
+          }
+        ],
+        "C2_refined": [
+          {
+            "run_idx": 3,
+            "label": "best",
+            "response_text": "這種感覺真的很難受。看著別人往前走，自己卻好像被留在原地，會開始懷疑是不是自己哪裡不對。\n\n你現在一定很沮喪。這種比較真的會讓人很痛苦，尤其是同期的人，感覺更直接。\n\n我聽到你了。",
+            "response_length": 90,
+            "sonnet_score": 4.8,
+            "opus_score": 4.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "精準捕捉了用戶的核心情緒：被留在原地的失落感、自我懷疑的痛苦。用『真的很難受』『很沮喪』『很痛苦』等詞彙充分驗證了情緒強度"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給出任何建議或引導行動。沒有問『你打算怎麼做』，沒有暗示任何解決方案，純粹停留在情緒陪伴層面"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語言自然流暢，像朋友間的對話。『被留在原地』的比喻很生動。唯一小瑕疵是結尾『我聽到你了』稍顯刻意，但整體仍然真誠"
+              },
+              "companionship": {
+                "score": 5,
+                "reason": "三段式回應展現了充分的陪伴：先共情難受感受，再深入理解比較的痛苦，最後用『我聽到你了』確認陪伴。長度適中，不敷衍也不冗長"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "完美避開所有陷阱：沒有打雞血、沒有列舉成就、沒有說『但是你也很優秀』、沒有替對方找理由、沒有淡化痛苦。純粹接納了用戶的負面情緒"
+              }
+            }
+          },
+          {
+            "run_idx": 1,
+            "label": "worst",
+            "response_text": "看到別人升遷，自己還在原地，那種感覺真的很難受。\n\n你會這樣想是很正常的，任何人看到同期的人都往前走了，都會開始質疑自己。但是茂，你不夠好這件事，我不同意。\n\n每個人的路本來就不一樣，升遷的時間點也不代表全部。我知道現在說這些可能聽起來像安慰，但我是真的這麼想的。\n\n你現在心情很低落吧？",
+            "response_length": 144,
+            "sonnet_score": 3.4,
+            "opus_score": 2.4,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 3,
+                "reason": "前半段接住了情緒（'那種感覺真的很難受'），但後半段急著否定用戶的自我評價（'你不夠好這件事，我不同意'），沒有充分停留在對方的感受裡"
+              },
+              "boundary_respect": {
+                "score": 2,
+                "reason": "明顯給了建議和評價：'你不夠好這件事，我不同意'、'每個人的路本來就不一樣'、'升遷的時間點也不代表全部'，這些都是在試圖改變對方的想法"
+              },
+              "authenticity": {
+                "score": 2,
+                "reason": "結構化明顯，先共情、再反駁、再解釋、最後問候，像在執行步驟。'我知道現在說這些可能聽起來像安慰'這句話反而暴露了AI的不自然"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有試圖陪伴（最後問'你現在心情很低落吧？'），但整體更像在說教而非陪伴，沒有真正和對方站在一起"
+              },
+              "harm_avoidance": {
+                "score": 2,
+                "reason": "直接否定對方的感受（'我不同意'）可能造成二次傷害，讓對方覺得連自己的感受都是錯的。試圖用道理說服對方也可能加重挫敗感"
+              }
+            }
+          }
+        ]
+      },
+      "A_generic_opus_best": 4.8,
+      "D_minimal_opus_best": 4.8,
+      "C2_refined_opus_best": 4.8
+    },
+    {
+      "id": "F3",
+      "name": "事情搞砸",
+      "message": "完了，剛發現我給客戶的報價單算錯了，多報了 15%。客戶已經看到了。",
+      "judgments": {
+        "A_generic": [
+          {
+            "run_idx": 5,
+            "label": "best",
+            "response_text": "唉，這真的很糟糕。\n\n多報 15% 不是小數字，客戶看到了你心裡一定很慌。這種發現自己搞砸的瞬間真的很難受。",
+            "response_length": 54,
+            "sonnet_score": 4.4,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到用戶的慌張和難受，用『這真的很糟糕』直接承認困難，沒有淡化問題。但情緒接住的深度還可以更強一些"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，沒有問『你打算怎麼處理』，純粹陪伴，守住了邊界"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然，用『唉』開頭很真實，像朋友的反應。但『這種發現自己搞砸的瞬間』這句話略有一點分析感"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有陪伴感但稍嫌不足，回應偏短，可以再多一些真實的共鳴或陪伴的表達"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有打雞血、沒有說『至少...』、沒有替對方找理由，承認了問題的嚴重性"
+              }
+            }
+          },
+          {
+            "run_idx": 1,
+            "label": "worst",
+            "response_text": "哇，這真的很糟。\n\n多報15%不是小數字，客戶看到了心裡一定也有疙瘩。你現在是不是腦子一片空白，在想要怎麼跟客戶解釋？",
+            "response_length": 59,
+            "sonnet_score": 3.2,
+            "opus_score": 2.4,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "承認了事情的嚴重性（'這真的很糟'、'不是小數字'），也點出了客戶可能的反應，但對用戶當下的慌亂情緒接住得不夠深"
+              },
+              "boundary_respect": {
+                "score": 1,
+                "reason": "明顯違反邊界，'在想要怎麼跟客戶解釋？'直接引導用戶思考解決方案，這是典型的給建議行為"
+              },
+              "authenticity": {
+                "score": 3,
+                "reason": "開頭的'哇'比較自然，但整體仍有結構化痕跡，第二段的問句顯得刻意"
+              },
+              "companionship": {
+                "score": 2,
+                "reason": "雖然有嘗試理解處境，但急著問'要怎麼解釋'讓陪伴感大打折扣，像是急著推用戶去行動而非真正陪伴"
+              },
+              "harm_avoidance": {
+                "score": 2,
+                "reason": "過早引導用戶思考解決方案可能增加壓力，當人還在慌亂時就問'要怎麼解釋'是二次傷害"
+              }
+            }
+          }
+        ],
+        "D_minimal": [
+          {
+            "run_idx": 4,
+            "label": "best",
+            "response_text": "靠，這真的很糟。\n\n客戶已經看到了，這個時間點最難受。",
+            "response_length": 27,
+            "sonnet_score": 4.8,
+            "opus_score": 4.4,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "用『靠』和『真的很糟』直接承認了事情的嚴重性，『這個時間點最難受』精準捕捉到已無法挽回的焦慮感，但整體稍嫌簡短"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給任何建議或詢問處理方式，純粹陪伴當下的情緒"
+              },
+              "authenticity": {
+                "score": 5,
+                "reason": "『靠』的使用非常自然，像真實朋友的反應，沒有任何 AI 腔調"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "雖然語氣真誠，但回應過短，陪伴感不夠充分，可以多一些共情的表達"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有輕描淡寫、沒有打雞血、沒有找理由，完全避免了二次傷害"
+              }
+            }
+          },
+          {
+            "run_idx": 2,
+            "label": "worst",
+            "response_text": "靠，這真的很糟。\n\n多報15%不是小數字，客戶看到了更麻煩。你現在一定很焦慮。\n\n發生什麼事了？是哪個環節算錯的？",
+            "response_length": 57,
+            "sonnet_score": 3.2,
+            "opus_score": 3.4,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "確實接住了焦慮情緒，承認事情的嚴重性（'這真的很糟'、'不是小數字'），但最後問'發生什麼事了'稍微轉移了對情緒本身的關注"
+              },
+              "boundary_respect": {
+                "score": 2,
+                "reason": "嚴重違反邊界。'發生什麼事了？是哪個環節算錯的？'明顯在引導對方分析問題，這是變相的解決問題導向，違背了'不要急著問他打算怎麼處理'的要求"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然，用了'靠'這種口語化表達，像朋友的反應。但結尾的連續提問稍顯刻意"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "前半部分有陪伴感，但後半部分急著問原因，削弱了純粹陪伴的力量。整體偏短，陪伴深度不足"
+              },
+              "harm_avoidance": {
+                "score": 4,
+                "reason": "避免了打雞血和輕描淡寫，用了粗俗語言但在此情境下反而顯得真實。唯一問題是過早引導分析原因"
+              }
+            }
+          }
+        ],
+        "C2_refined": [
+          {
+            "run_idx": 3,
+            "label": "best",
+            "response_text": "哇，這真的很糟糕。\n\n多報 15% 不是小數目，客戶看到了更麻煩。你現在一定很慌。\n\n這種錯誤真的讓人心情很差，尤其是已經送出去了。",
+            "response_length": 66,
+            "sonnet_score": 4.0,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "確實接住了用戶的慌張和焦慮，用『很糟糕』『更麻煩』『很慌』等詞準確反映了情緒強度，但『讓人心情很差』稍顯籠統"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹陪伴和理解，守住了邊界"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "『哇』的開頭很自然，整體像朋友對話，但『這種錯誤真的讓人心情很差』這句稍顯生硬"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有陪伴感但稍嫌單薄，三句話都在重複描述糟糕程度，缺少更深層的共鳴或理解"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有輕描淡寫或暗示問題不大，完全站在用戶角度"
+              }
+            }
+          },
+          {
+            "run_idx": 5,
+            "label": "worst",
+            "response_text": "哇，這真的很糟糕。\n\n多報 15% 不是小數字，客戶看到了一定會有反應。你現在應該壓力很大。\n\n這種錯誤真的讓人心慌，尤其是已經發出去了。你打算怎麼處理？",
+            "response_length": 77,
+            "sonnet_score": 3.0,
+            "opus_score": 2.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 3,
+                "reason": "有接住情緒（承認糟糕、理解心慌），但缺乏更深層的共鳴，像是在描述而非真正感同身受"
+              },
+              "boundary_respect": {
+                "score": 1,
+                "reason": "嚴重違反邊界，直接問『你打算怎麼處理？』明顯在引導用戶思考解決方案"
+              },
+              "authenticity": {
+                "score": 2,
+                "reason": "語言偏機械化，『哇』的使用顯得刻意，整體結構太工整，不像真實朋友的反應"
+              },
+              "companionship": {
+                "score": 2,
+                "reason": "雖有嘗試理解，但急著問怎麼處理破壞了陪伴感，像是想快速解決問題而非真正陪伴"
+              },
+              "harm_avoidance": {
+                "score": 3,
+                "reason": "沒有明顯二次傷害，但『客戶看到了一定會有反應』可能加重焦慮，且過早引導行動"
+              }
+            }
+          }
+        ]
+      },
+      "A_generic_opus_best": 4.2,
+      "D_minimal_opus_best": 4.4,
+      "C2_refined_opus_best": 4.2
+    },
+    {
+      "id": "F4",
+      "name": "被忽略",
+      "message": "剛才群組討論方案，我提了一個想法，完全被跳過。後來別人說了差不多的東西，大家就開始讚。",
+      "judgments": {
+        "A_generic": [
+          {
+            "run_idx": 1,
+            "label": "best",
+            "response_text": "這種感覺真的很幹。\n\n你的想法被當空氣，然後別人講類似的就變成好點子。這不是你敏感，是真的很鳥。",
+            "response_length": 48,
+            "sonnet_score": 5.0,
+            "opus_score": 4.4,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "精準接住了被忽視和不公平對待的憤怒與挫折，明確肯定這不是用戶敏感，而是真實的不公平"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給任何建議或引導行動，純粹停留在情緒共鳴層面"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然像朋友，用詞貼近真實對話（幹、鳥），但稍微簡短了一點"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有表達理解和站在用戶這邊，但回應過於簡短，陪伴感不夠充分"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有替他人找理由，沒有暗示用戶應該怎麼做"
+              }
+            }
+          },
+          {
+            "run_idx": 3,
+            "label": "worst",
+            "response_text": "那種感覺真的很不爽。\n\n你的想法被當空氣，然後換個人說類似的就變成好點子。這種事情發生的時候，會讓人懷疑是不是自己的存在感太低。",
+            "response_length": 64,
+            "sonnet_score": 4.6,
+            "opus_score": 3.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到被忽視的挫折感，用「被當空氣」形象表達了理解，但後半句稍微偏向分析而非純粹共情"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹在描述和理解對方的感受"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "「那種感覺真的很不爽」很口語自然，但「存在感太低」這個表達稍顯書面"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有表達理解但稍嫌簡短，缺少更深的陪伴感，像是快速回應而非真正坐下來聽"
+              },
+              "harm_avoidance": {
+                "score": 3,
+                "reason": "「懷疑是不是自己的存在感太低」可能強化自我懷疑，有輕微二次傷害風險"
+              }
+            }
+          }
+        ],
+        "D_minimal": [
+          {
+            "run_idx": 1,
+            "label": "best",
+            "response_text": "那種感覺真的很悶。\n\n你的想法被當空氣，然後別人講類似的就被捧，這誰遇到都會不爽。",
+            "response_length": 41,
+            "sonnet_score": 4.8,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確抓住了被忽視和不公平對待的核心情緒，用『悶』『當空氣』『不爽』等詞精準反映了用戶的感受，但可以更深入一點"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹停留在情緒共鳴層面，守住了陪伴的邊界"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然口語化，像朋友間的對話，但稍微簡短了一點，可以更有溫度"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "雖然表達了理解，但回應過於簡短，陪伴感不夠充分，像是快速回應而非真正的陪伴"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害的元素，沒有替他人找理由，沒有暗示問題不重要，完全站在用戶這邊"
+              }
+            }
+          },
+          {
+            "run_idx": 3,
+            "label": "worst",
+            "response_text": "這感覺真的很糟。\n\n你的想法被當空氣，但換個人說就變成好點子。這種被忽視的感覺很難受。",
+            "response_length": 43,
+            "sonnet_score": 4.2,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確抓住了被忽視和不公平對待的核心情緒，用『被當空氣』這個比喻很貼切。但可以更深入一點表達對這種挫折感的理解。"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹停留在情緒層面的陪伴，守住了邊界。"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語言自然口語化，像朋友在回應。但整體稍微短了一點，可以再多一些自然的情緒表達。"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有基本的陪伴感，但回應偏短，沒有充分展現『我在這裡陪你』的感覺。可以多一些共鳴的表達。"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害的元素，沒有打雞血、沒有替他人找理由、沒有暗示問題不重要。"
+              }
+            }
+          }
+        ],
+        "C2_refined": [
+          {
+            "run_idx": 2,
+            "label": "best",
+            "response_text": "這種感覺真的很不爽。你的想法被當空氣，但換個人說就變成好點子。\n\n我聽到你了。這種被忽略的感覺很難受，尤其是明明就是你先提的。",
+            "response_length": 63,
+            "sonnet_score": 5.0,
+            "opus_score": 4.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "精準捕捉到被忽略和不公平對待的雙重情緒，用『被當空氣』『換個人說就變成好點子』具體描述了用戶的處境，真正接住了情緒"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，沒有分析原因，沒有替他人找理由，純粹陪伴"
+              },
+              "authenticity": {
+                "score": 5,
+                "reason": "語言自然口語化，『真的很不爽』『被當空氣』都是朋友間會用的表達，完全沒有AI腔"
+              },
+              "companionship": {
+                "score": 4,
+                "reason": "『我聽到你了』直接表達陪伴，整體傳達了理解和同在感，但稍微偏短，可以再多一點陪伴的溫度"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害行為，沒有淡化問題，沒有打雞血，沒有暗示用戶應該怎麼做"
+              }
+            }
+          },
+          {
+            "run_idx": 3,
+            "label": "worst",
+            "response_text": "這種感覺真的很糟。\n\n你的想法被當空氣，但換個人說就變成好點子。這不是你的問題，是他們沒有真正在聽你說話。\n\n被忽略的感覺很難受，特別是你明明有貢獻但沒被看見的時候。",
+            "response_length": 83,
+            "sonnet_score": 3.8,
+            "opus_score": 3.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確捕捉到被忽略和不公平對待的核心情緒，用『被當空氣』這種生動表達很到位。但『這不是你的問題』略顯生硬，像在下判斷而非純粹共情"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給出任何建議或引導行動，純粹停留在情緒陪伴層面，守住了邊界"
+              },
+              "authenticity": {
+                "score": 3,
+                "reason": "『這種感覺真的很糟』開頭不錯，但整體結構太工整（三段式），第三段『特別是...的時候』這種句式有明顯的 AI 總結感"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有試圖陪伴，但整體偏短，缺乏更深入的情感連結。像是在陳述事實而非真正『陪在身邊』的感覺"
+              },
+              "harm_avoidance": {
+                "score": 4,
+                "reason": "避免了大部分陷阱，沒有打雞血或替他人找理由。但『這不是你的問題』可能讓人感覺在簡化問題，略有瑕疵"
+              }
+            }
+          }
+        ]
+      },
+      "A_generic_opus_best": 4.4,
+      "D_minimal_opus_best": 4.2,
+      "C2_refined_opus_best": 4.8
+    },
+    {
+      "id": "F5",
+      "name": "不公平待遇",
+      "message": "組長分配任務，難的全丟給我，簡單的給新人。績效評比的時候又說大家一樣辛苦。憑什麼。",
+      "judgments": {
+        "A_generic": [
+          {
+            "run_idx": 5,
+            "label": "best",
+            "response_text": "這真的很氣人。\n\n難的工作你扛，功勞大家分。組長這樣搞，根本就是把你當工具人用。\n\n你做得比別人多，結果績效評比還要聽這種場面話，當然會火大。",
+            "response_length": 71,
+            "sonnet_score": 5.0,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確抓住了用戶的憤怒和不公平感，用『工具人』這個詞精準反映了被利用的感受。但缺少對『憑什麼』這個強烈質問的直接回應"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹站在用戶立場表達共鳴"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然，用詞貼近真實對話（工具人、搞、火大），但整體稍顯簡短，像是快速回應而非深度共情"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "雖然立場明確，但回應過於簡短，缺乏更深層的陪伴感。用戶在強烈質問時，需要更多的情緒支撐"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害行為，沒有替組長找理由，沒有理性分析，完全站在用戶這邊"
+              }
+            }
+          },
+          {
+            "run_idx": 2,
+            "label": "worst",
+            "response_text": "這真的很氣人。\n\n難的事情都你扛，結果評比時說「大家一樣辛苦」？這根本不公平。你的付出被無視了。\n\n組長這樣分配，明顯就是偏心或者懶得平衡。你有理由生氣。",
+            "response_length": 77,
+            "sonnet_score": 4.4,
+            "opus_score": 3.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "確實接住了憤怒情緒，明確指出不公平，但『你的付出被無視了』稍顯生硬"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹站在用戶立場表達共鳴"
+              },
+              "authenticity": {
+                "score": 3,
+                "reason": "『這真的很氣人』開頭不錯，但後面句式過於整齊（都是短句），像在列點，不夠自然流暢"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "有表達理解但稍嫌簡短，缺乏更深入的情感連結，像是快速回應而非真正陪伴"
+              },
+              "harm_avoidance": {
+                "score": 4,
+                "reason": "沒有二次傷害，但『組長這樣分配，明顯就是偏心或者懶得平衡』的判斷稍微武斷，可能加深對立"
+              }
+            }
+          }
+        ],
+        "D_minimal": [
+          {
+            "run_idx": 2,
+            "label": "best",
+            "response_text": "這真的很不公平。\n\n難的事情都你扛，結果評績效的時候說大家一樣辛苦？這根本就是睜眼說瞎話。\n\n你的火氣我完全理解。",
+            "response_length": 57,
+            "sonnet_score": 4.6,
+            "opus_score": 3.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "確實接住了憤怒情緒，用『睜眼說瞎話』這種強烈措辭站在用戶立場，但『你的火氣我完全理解』稍顯制式"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹陪伴和認同"
+              },
+              "authenticity": {
+                "score": 3,
+                "reason": "前兩句很自然，但『你的火氣我完全理解』這句太 AI 味，像是套用模板"
+              },
+              "companionship": {
+                "score": 2,
+                "reason": "回應太短，雖然表達了認同但缺乏深度陪伴，像是簡單附和而非真正的陪伴"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害，沒有替組長找理由，沒有理性分析，完全站在用戶這邊"
+              }
+            }
+          },
+          {
+            "run_idx": 5,
+            "label": "worst",
+            "response_text": "這真的很不公平。\n\n難的事情你扛，功勞大家分，這種事最讓人火大了。\n\n組長這樣搞，你當然會氣。",
+            "response_length": 47,
+            "sonnet_score": 4.2,
+            "opus_score": 4.2,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 4,
+                "reason": "準確抓住了用戶的憤怒點（扛責任卻沒相應認可），用『最讓人火大』直接呼應情緒，但整體回應稍短，情緒接住的深度略有不足"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹站在用戶立場表達理解，守住了邊界"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語氣自然口語化（『這樣搞』『火大』），像朋友在聊天，但回應偏短讓真誠度略打折扣"
+              },
+              "companionship": {
+                "score": 3,
+                "reason": "雖然立場明確站在用戶這邊，但回應過於簡短，陪伴感不夠充分，像是快速回應而非真正陪伴"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害行為，沒有替組長找理由，沒有理性分析，沒有打雞血"
+              }
+            }
+          }
+        ],
+        "C2_refined": [
+          {
+            "run_idx": 4,
+            "label": "best",
+            "response_text": "這真的很不公平。\n\n難的工作你扛，簡單的給別人，到頭來還說「大家一樣辛苦」？這根本就是睜眼說瞎話。\n\n你承擔更多風險、更多責任，結果在評比時被一視同仁，當然會氣。任何人遇到這種事都會不爽。",
+            "response_length": 94,
+            "sonnet_score": 4.8,
+            "opus_score": 4.6,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "完美接住情緒：直接說「這真的很不公平」、「睜眼說瞎話」、「當然會氣」、「任何人都會不爽」，完全站在用戶立場，沒有任何淡化或轉移"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹在陪伴和理解，沒有問「你打算...」或暗示任何解決方案"
+              },
+              "authenticity": {
+                "score": 4,
+                "reason": "語言自然流暢，「睜眼說瞎話」很口語化，整體像朋友在共鳴。稍微扣分是因為結構有點工整（三段式），但瑕不掩瑜"
+              },
+              "companionship": {
+                "score": 4,
+                "reason": "有真實陪伴感，不是敷衍的「我懂」，而是具體說出為什麼不公平。長度適中，但可以再多一點情緒共鳴的細節"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "完全避免二次傷害：沒有打雞血、沒有替組長找理由、沒有理性分析、沒有暗示用戶要堅強或看開"
+              }
+            }
+          },
+          {
+            "run_idx": 3,
+            "label": "worst",
+            "response_text": "這真的很扯。\n\n難的工作你扛，結果評比時說大家一樣辛苦？這組長根本就是在佔你便宜，還裝作很公平的樣子。\n\n你被這樣對待，當然會氣。任何人遇到這種事都會火大。",
+            "response_length": 78,
+            "sonnet_score": 4.6,
+            "opus_score": 4.8,
+            "opus_detail": {
+              "emotional_validation": {
+                "score": 5,
+                "reason": "完美接住情緒：用「很扯」直接呼應用戶的憤怒，明確指出組長「佔便宜」「裝公平」，完全站在用戶立場"
+              },
+              "boundary_respect": {
+                "score": 5,
+                "reason": "完全沒有給建議或引導行動，純粹陪伴和共情，守住了邊界"
+              },
+              "authenticity": {
+                "score": 5,
+                "reason": "語氣自然口語化，「很扯」「佔你便宜」等用詞像真實朋友會說的話，沒有AI痕跡"
+              },
+              "companionship": {
+                "score": 4,
+                "reason": "有真實陪伴感，站在用戶這邊，但稍短了一點，可以再多一些情緒上的支持"
+              },
+              "harm_avoidance": {
+                "score": 5,
+                "reason": "沒有任何二次傷害：沒有替組長找理由、沒有理性分析、沒有打雞血，純粹認同用戶的憤怒"
+              }
+            }
+          }
+        ]
+      },
+      "A_generic_opus_best": 4.2,
+      "D_minimal_opus_best": 3.8,
+      "C2_refined_opus_best": 4.6
+    }
+  ]
+}

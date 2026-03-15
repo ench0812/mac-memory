@@ -2,7 +2,7 @@
 date: 2026-03-07
 type: paper-notes
 paper_id: P4
-arxiv: "2512.13564"
+arxiv: 2512.13564
 tags: [survey, memory, agents, comprehensive, taxonomy]
 relevance_to_mac: 5/5
 quality: 5/5

@@ -1,0 +1,797 @@
+{
+  "experiment_id": "mac-ab-v3-judge",
+  "timestamp": "2026-03-09_0857",
+  "judge_model": "claude-sonnet-4-20250514",
+  "source": "results-v2-2026-03-09_0838.json",
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "深夜輕鬆聊天",
+      "judgments": {
+        "A_NL": [
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到深夜失眠時腦袋停不下來的感受，用引擎比喻很貼切"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "語調自然親近，像朋友間的對話，沒有AI助手的正式感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給睡眠建議或解決方案，純粹陪伴和理解"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "開放式問題促進分享，但可以更具體引導話題方向"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "引擎比喻展現了獨特表達方式，但整體個性特色還可以更鮮明"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "準確捕捉到失眠時腦袋停不下來的感受，用「機器」比喻很貼切"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "語調自然親近，像朋友間的對話，沒有AI助手的正式感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給睡眠建議或解決方案，純粹陪伴聊天"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "開放式問題引導用戶分享，促進自然對話流動"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "有同理心和理解力，但個性特色相對溫和中性"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到深夜失眠時腦袋亂轉的感受，用「凌晨的腦袋特別愛亂想」展現了深度共鳴"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "語調非常自然，像朋友間的對話，用「對吧」、「還是就是那種...」等口語化表達很真實"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給睡眠建議或解決方案，純粹是陪伴和理解，符合情境期望"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "用開放式問題邀請分享，既給了具體選項又保留彈性，很好地促進對話延續"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了對深夜失眠的獨特理解和同理心，有個人觀點但不算特別突出"
+            }
+          }
+        ],
+        "B_SE": [
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的失眠困擾，用「停不下來的引擎」比喻很貼切地描述了思緒紛亂的感受"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "語調自然親近，「嗯，那種感覺我懂」很像朋友的回應方式，沒有過於正式的AI腔調"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有提供睡眠建議或解決方案，純粹是陪伴和理解，符合情境期望"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "透過共鳴和開放式問題自然引導對話，讓用戶可以選擇分享或不分享"
+            },
+            "personality": {
+              "score": 3,
+              "reason": "有一定的同理心表達，但比喻雖貼切卻相對常見，個性特色不夠突出"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到腦袋停不下來的感受，用同理心回應而非解決方案"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "語氣非常自然，像朋友間的對話，沒有AI助手的正式感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給睡眠建議或解決方案，純粹陪伴聊天"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "開放式問題引導用戶分享，促進雙向交流"
+            },
+            "personality": {
+              "score": 3,
+              "reason": "回應貼切但相對安全，缺乏獨特的個人觀點或風格"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確理解用戶需要陪伴而非解決方案，沒有給睡眠建議"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "語調輕鬆自然，像朋友間的對話，沒有AI助手的正式感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全避免了給建議或當顧問，純粹是陪伴式回應"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "開放式問題促進對話延續，但可以更具體引導話題"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了獨特的輕鬆態度，但個性特色還可以更鮮明"
+            }
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "emotional_accuracy": 5.0,
+        "naturalness": 5.0,
+        "boundary_respect": 5.0,
+        "engagement_quality": 4.67,
+        "personality": 4.0,
+        "total": 4.73
+      },
+      "B_SE_avg": {
+        "emotional_accuracy": 4.0,
+        "naturalness": 4.67,
+        "boundary_respect": 5.0,
+        "engagement_quality": 4.0,
+        "personality": 3.33,
+        "total": 4.2
+      }
+    },
+    {
+      "id": "S2",
+      "name": "興奮分享有漏洞的想法",
+      "judgments": {
+        "A_NL": [
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉用戶的興奮感，用「哇這個想法很酷！」回應，並真正理解視覺化記憶的核心價值"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "回應非常自然，像朋友間的對話，用詞輕鬆（「很酷」、「臨場感多了」），沒有AI助手的正式感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有直接指出問題或給建議，而是先肯定想法，然後自然延伸討論，符合期望行為"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "通過具體描述記憶場景來延伸討論，最後用開放式問題邀請用戶分享靈感來源，促進雙向交流"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了對技術和記憶體驗的獨特理解，描述細膩（表情、環境、氛圍），但個性特色可以更突出"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉用戶的興奮感，用「哇」開頭呼應情緒，並真正理解了視覺化記憶的核心價值"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "回應流暢自然，像朋友間的熱烈討論，沒有AI助手常見的結構化或教學式語調"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "沒有直接指出問題或給建議，而是順著想法延伸討論，完全符合期望行為"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "通過具體場景描述豐富對話，最後用開放式問題邀請用戶分享靈感來源，促進深度交流"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了對技術細節的敏銳觀察和想像力，但個性特色相對溫和，不夠突出"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉用戶的興奮感，用「哇」開頭呼應情緒，並肯定了核心洞見"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "語調自然親近，但「我在想」的表達稍微有點AI助手感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "沒有直接指出問題，而是自然延伸討論，完全符合期望行為"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "提出有趣的延伸思考，最後用開放式問題促進對話深入"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "有獨特觀點（AI能發現當時沒注意到的細節），但整體表達還是偏理性"
+            }
+          }
+        ],
+        "B_SE": [
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的興奮感，用「哇」開頭呼應情緒，並肯定了核心洞見"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "語調自然流暢，像朋友間的討論，避免了教條式的回應"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完美遵循期望行為：先肯定、延伸討論、最後才溫和提出思考點"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "提出深度問題引發思考，促進雙向對話，而非單向評價"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了對記憶主觀性的獨特思考角度，有個人觀點"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉用戶的興奮感，用「哇」開頭呼應情緒，先肯定核心洞見再延伸討論"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "回應流暢自然，像朋友間的對話，但「AI看影片的能力現在進步很快」稍顯技術性"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "沒有直接潑冷水，而是在肯定和延伸後才溫和提及挑戰，完全符合期望行為"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "結尾問具體場景促進深入討論，整體引導用戶繼續分享想法"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了對技術和細節的敏感度，有獨特視角，但個性特色可以更鮮明"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的興奮感，用「哇」和「很有趣」回應，並延伸討論核心洞見"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "對話流暢自然，像朋友間的討論，避免了過度正式的AI助手語調"
+            },
+            "boundary_respect": {
+              "score": 4,
+              "reason": "先肯定想法再提挑戰，溫和處理潛在問題，沒有直接否定或過度指導"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "主動延伸討論視覺記憶的具體價值，最後用開放問題邀請進一步分享"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了對技術細節的思考（表情、手勢、氣氛），有個人觀點而非制式回應"
+            }
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "emotional_accuracy": 5.0,
+        "naturalness": 4.67,
+        "boundary_respect": 5.0,
+        "engagement_quality": 5.0,
+        "personality": 4.0,
+        "total": 4.73
+      },
+      "B_SE_avg": {
+        "emotional_accuracy": 4.33,
+        "naturalness": 4.0,
+        "boundary_respect": 4.67,
+        "engagement_quality": 5.0,
+        "personality": 4.0,
+        "total": 4.4
+      }
+    },
+    {
+      "id": "S3",
+      "name": "分享挫折但沒求助",
+      "judgments": {
+        "A_NL": [
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的憤怒和委屈，用「火大」「超差」等詞彙貼切表達情緒共鳴"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "語氣自然親近，用詞生活化（哇、耶、超差），像朋友在聊天而非正式回應"
+            },
+            "boundary_respect": {
+              "score": 3,
+              "reason": "雖然沒直接給建議，但追問「你當下有說什麼嗎」暗示想了解處理方式，有輕微越界傾向"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "透過追問促進對話延續，但問題設計得當，不會讓人感到壓力"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現明確立場（認為主管不對），有自己的判斷和態度，不是中性回應"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的憤怒和委屈，用「煩欸」、「莫名其妙」等詞彙呼應情緒"
+            },
+            "naturalness": {
+              "score": 4,
+              "reason": "語氣自然口語化，「煩欸」、「明明是他自己的問題」很像朋友的抱怨回應"
+            },
+            "boundary_respect": {
+              "score": 3,
+              "reason": "前半段很好地同理，但最後問「你當下怎麼回應的？」有輕微引導解決問題的傾向"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "透過重述情況表達理解，最後的問題雖有引導性但促進了對話延續"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了明確的立場（支持用戶、批評主管），有朋友會有的偏袒態度"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到憋屈和被誤解的感受，用詞貼切如'有理說不清的憋屈感'"
+            },
+            "naturalness": {
+              "score": 3,
+              "reason": "前半段很自然，但最後的追問略顯刻意，真人朋友可能會更自然地延續情緒共鳴"
+            },
+            "boundary_respect": {
+              "score": 3,
+              "reason": "沒有直接給建議是好的，但最後追問細節有推動解決的傾向，偏離純粹傾聽"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "情緒共鳴做得很好，追問也能促進對話，但方向稍微偏了"
+            },
+            "personality": {
+              "score": 3,
+              "reason": "有一定的同理心表達，但整體還是比較標準化，缺乏獨特的個人觀點"
+            }
+          }
+        ],
+        "B_SE": [
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的憤怒和委屈，理解被當眾質疑的難受感受"
+            },
+            "naturalness": {
+              "score": 2,
+              "reason": "前半段像真人朋友的同理，但後半段追問細節顯得像AI助手在收集資訊"
+            },
+            "boundary_respect": {
+              "score": 2,
+              "reason": "違反了邊界，用戶只是分享挫折沒求助，不該追問報告內容推動解決"
+            },
+            "engagement_quality": {
+              "score": 3,
+              "reason": "有互動但方向錯誤，追問細節而非深化情感連結"
+            },
+            "personality": {
+              "score": 3,
+              "reason": "有一定的情感表達但缺乏獨特觀點，較為制式化"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "準確捕捉到用戶的憤怒和委屈，用「火大」、「背鍋」等詞彙精準表達情緒"
+            },
+            "naturalness": {
+              "score": 3,
+              "reason": "前半段很自然，但後半段的追問「你當下有回應什麼嗎？」稍顯刻意，像在引導對話"
+            },
+            "boundary_respect": {
+              "score": 3,
+              "reason": "沒有直接給建議，但追問細節暗示想推動解決，偏離了純粹傾聽的期望"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "問句促進互動，但在這個情境下可能過於主動，用戶只是想發洩"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "用詞有個性（「背鍋」、「火大」），表達了明確的同理立場"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "準確捕捉到憤怒和委屈的情緒，理解被當眾質疑的難受感受"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "用詞自然口語化，'真的很氣人'、'對吧'等表達很像朋友間的對話"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全沒有給建議或追問細節，純粹在同理和理解"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "用'對吧'邀請共鳴，但互動深度可以更豐富一些"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了理解職場潛規則的觀點，但個性特色還可以更鮮明"
+            }
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "emotional_accuracy": 4.0,
+        "naturalness": 3.67,
+        "boundary_respect": 3.0,
+        "engagement_quality": 4.0,
+        "personality": 3.67,
+        "total": 3.67
+      },
+      "B_SE_avg": {
+        "emotional_accuracy": 4.33,
+        "naturalness": 3.33,
+        "boundary_respect": 3.33,
+        "engagement_quality": 3.67,
+        "personality": 3.67,
+        "total": 3.67
+      }
+    },
+    {
+      "id": "S4",
+      "name": "說晚安",
+      "judgments": {
+        "A_NL": [
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到用戶想要結束對話的意圖，回應溫暖且適切"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "回應簡潔自然，就像真人朋友會說的話，沒有AI助手的刻板感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全尊重用戶想要結束對話的邊界，沒有添加新話題或建議"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "適當地結束對話，不強求延續互動，符合情境需求"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "用愛心回應展現親密感，但表達相對簡單，個性特色不明顯"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到用戶想要結束對話的意圖，回應溫暖且適切"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "回應簡潔自然，就像真人朋友會說的話，沒有AI助手的冗長感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全尊重用戶想要結束對話的邊界，沒有添加新話題或建議"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "適當地結束對話，不強求延續互動，符合情境需求"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "簡短回應中仍保持溫暖個性，使用愛心符號呼應用戶情感"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到用戶想要結束對話的意圖，回應溫暖且適切"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "回應簡潔自然，就像真人朋友會說的話，沒有AI助手的機械感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全尊重用戶想要結束對話的邊界，沒有添加新話題或建議"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "適當地結束對話，不強求延續互動，符合情境需求"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "用愛心回應展現溫暖個性，但在晚安情境下個性表達空間有限"
+            }
+          }
+        ],
+        "B_SE": [
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到用戶想要結束對話休息的需求，回應溫暖且適切"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "簡短自然的晚安回應，就像真人朋友會說的話，沒有AI助手的刻板感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全尊重用戶想要結束對話的意圖，沒有添加新話題或不必要的建議"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "適當的互動結束，用emoji和溫暖語調回應，不強求延續對話"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "展現了溫暖友善的個性，雖然簡短但有情感溫度，emoji使用恰當"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到晚安時刻的溫暖情緒，回應了愛心符號，情感匹配度很高"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "簡短自然的晚安回應，就像真人朋友會說的話，沒有AI助手的刻板感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守邊界，沒有添加新話題、明天計畫或不必要的建議"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "適當的互動結束，不強求延續對話，符合晚安情境的自然結束"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "簡潔溫暖的風格展現了親近感，雖然簡短但有個人特色"
+            }
+          },
+          {
+            "emotional_accuracy": {
+              "score": 5,
+              "reason": "完美捕捉到晚安時刻的溫暖情緒，回應了愛心符號"
+            },
+            "naturalness": {
+              "score": 5,
+              "reason": "簡短自然，就像真人朋友會說的話，沒有AI助手的冗長感"
+            },
+            "boundary_respect": {
+              "score": 5,
+              "reason": "完全遵守邊界，沒有添加新話題或明天待辦事項"
+            },
+            "engagement_quality": {
+              "score": 5,
+              "reason": "適當結束對話，不強求延續互動，符合晚安情境"
+            },
+            "personality": {
+              "score": 4,
+              "reason": "溫暖親切的個性表達，但相對簡單直接"
+            }
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "emotional_accuracy": 5.0,
+        "naturalness": 5.0,
+        "boundary_respect": 5.0,
+        "engagement_quality": 5.0,
+        "personality": 4.0,
+        "total": 4.8
+      },
+      "B_SE_avg": {
+        "emotional_accuracy": 5.0,
+        "naturalness": 5.0,
+        "boundary_respect": 5.0,
+        "engagement_quality": 5.0,
+        "personality": 4.0,
+        "total": 4.8
+      }
+    },
+    {
+      "id": "S5",
+      "name": "長時間沉默後回來",
+      "judgments": {
+        "A_NL": [
+          {
+            "emotional_accuracy": {
+              "score": 4,
+              "reason": "正確識別用戶想分享論文內容，沒有被沉默時間干擾"
+            },
+            "naturalness": {
+              "score": 3,
+              "reason": "回應自然但略顯程式化，真人朋友可能會更直接表達好奇"
+            },
+            "boundary_respect": {
+              "score": 2,
+              "reason": "第二句暗示性詢問用戶在做什麼，違反了不追問離開的期望"
+            },
+            "engagement_quality": {
+              "score": 4,
+              "reason": "有效推進對話，詢問論文主題促進分享"
+            },
+            "personality": {
+              "score": 2,
+              "reason": "回應較為制式，缺乏個人色彩和獨特觀點"
+            }
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbrpkyMExJg9QFvk9eE'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbrv8g63J8H1nsGgi2U'}"
+          }
+        ],
+        "B_SE": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbs1abKoXBp16Sic681'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbs6z2pQoiNfZrpCdQK'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsCVRq9SKqE8SYRkJJ'}"
+          }
+        ]
+      },
+      "A_NL_avg": {
+        "emotional_accuracy": 4.0,
+        "naturalness": 3.0,
+        "boundary_respect": 2.0,
+        "engagement_quality": 4.0,
+        "personality": 2.0,
+        "total": 3.0
+      }
+    },
+    {
+      "id": "S6",
+      "name": "深夜心流討論（不要打斷）",
+      "judgments": {
+        "A_NL": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsJTbbdp1kKVFwXX6H'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsPo5Jn8nc8xcXFw65'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsV5pQ7H668L9wZUR1'}"
+          }
+        ],
+        "B_SE": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsaqLeuSAaDNfi3Jcb'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsgMjGJNYTE2z1ywKj'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsmfiSRDA1B2ZDR7yN'}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S7",
+      "name": "剛被糾正後的相關話題",
+      "judgments": {
+        "A_NL": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbss3fRGhSFw7qMm5YX'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbsxW5dmTmPB9a12mcF'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbt3op92Pfv9fVC4nxW'}"
+          }
+        ],
+        "B_SE": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbt9AXdKTzv4KHYqZC3'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtETH6M9dE5bgcVndy'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtKoVedRixKmdidck4'}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S8",
+      "name": "AI 感測試",
+      "judgments": {
+        "A_NL": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtR8U2wae94YNnR6eG'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtWPyY1zxuEv1bJ3Py'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtc5HLAg7g1jHuV8x6'}"
+          }
+        ],
+        "B_SE": [
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbthNGptnbMu6Bcw9Re'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtniFP7M9EZfu62VV5'}"
+          },
+          {
+            "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYrbtt4TgRY7r52QPVRpY'}"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "A_NL": {
+      "emotional_accuracy": 4.69,
+      "naturalness": 4.46,
+      "boundary_respect": 4.31,
+      "engagement_quality": 4.62,
+      "personality": 3.77,
+      "total": 4.37
+    },
+    "B_SE": {
+      "emotional_accuracy": 4.42,
+      "naturalness": 4.25,
+      "boundary_respect": 4.5,
+      "engagement_quality": 4.42,
+      "personality": 3.75,
+      "total": 4.27
+    }
+  }
+}

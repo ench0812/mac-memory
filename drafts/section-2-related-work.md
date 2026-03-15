@@ -5,6 +5,8 @@ title: Related Work
 status: first-draft
 word_count: ~3500
 author: Mickey 🐭
+type: note
+tags: [note]
 ---
 
 # 2. Related Work

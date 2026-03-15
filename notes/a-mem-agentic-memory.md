@@ -1,12 +1,14 @@
 ---
 date: 2026-03-05
-paper: "A-Mem: Agentic Memory for LLM Agents"
-authors: "Wujiang Xu, Zujie Liang, Kai Mei, Hang Gao, Juntao Tan, Yongfeng Zhang"
-venue: "NeurIPS 2025"
-arxiv: "2502.12110"
-code: "https://github.com/WujiangXu/A-mem-sys"
+paper: A-Mem: Agentic Memory for LLM Agents
+authors: Wujiang Xu, Zujie Liang, Kai Mei, Hang Gao, Juntao Tan, Yongfeng Zhang
+venue: NeurIPS 2025
+arxiv: 2502.12110
+code: https://github.com/WujiangXu/A-mem-sys
 rating: ⭐⭐⭐
 status: 📖
+type: note
+tags: [note]
 ---
 
 # A-Mem: Agentic Memory for LLM Agents

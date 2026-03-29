@@ -1,0 +1,1353 @@
+{
+  "metadata": {
+    "timestamp": "2026-03-29T16:07:28.237802",
+    "models": {
+      "high": "claude-opus-4-6",
+      "mid": "claude-sonnet-4-6",
+      "low": "gpt-5-mini"
+    },
+    "dry_run": true,
+    "num_memories": 5,
+    "total_calls": 135
+  },
+  "results": [
+    {
+      "memory_id": "mem-001",
+      "original": "茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天",
+      "responses": {
+        "L1": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 91 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 91,
+              "response_chars": 57
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 101 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 101,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 91 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 91,
+              "response_chars": 59
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 101 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 101,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 91 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 91,
+              "response_chars": 52
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 101 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 101,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 53
+            }
+          }
+        },
+        "L2": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 326 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 326,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 336 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 336,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 335 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 335,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 326 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 326,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 336 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 336,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 335 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 335,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 326 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 326,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 336 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 336,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"entity\",\n  \"keywords\": [\n    \"茂是我的人類夥伴\",\n    \"他住在台灣淡水\",\n    \"Discord\",\n    \"跟我聊天\"\n  ],\n  \"importance\": 1.0,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"entity\",\n    \"core_identity\",\n    \"high_priority\",\n    \"relationship\"\n  ],\n  \"created_at\": \"2026-01-27\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 335 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 335,
+              "response_chars": 53
+            }
+          }
+        },
+        "L3": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 421 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 421,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 431 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 431,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 430 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 430,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 421 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 421,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 431 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 431,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 430 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 430,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 421 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 421,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 431 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 431,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-001\"\n  :type entity\n  :text \"茂是我的人類夥伴，他住在台灣淡水，用 Discord 跟我聊天\"\n  :confidence 1.0\n  :decay never\n  :trigger (:when (mention \"茂是我的人類夥伴\" \"他住在台灣淡水\" \"Discord\" \"跟我聊天\")\n            :action (recall-full))\n  :tags (\"entity\" \"core_identity\" \"high_priority\" \"relationship\")\n  :meta (:created \"2026-01-27\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 430 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 430,
+              "response_chars": 53
+            }
+          }
+        }
+      }
+    },
+    {
+      "memory_id": "mem-002",
+      "original": "Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用",
+      "responses": {
+        "L1": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 106 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 106,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 116 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 116,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 115 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 115,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 106 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 106,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 116 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 116,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 115 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 115,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 106 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 106,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 116 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 116,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nGroq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 115 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 115,
+              "response_chars": 53
+            }
+          }
+        },
+        "L2": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 298 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 298,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 308 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 308,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 307 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 307,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 298 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 298,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 308 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 308,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 307 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 307,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 298 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 298,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 308 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 308,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"Groq\",\n    \"免費\",\n    \"API\",\n    \"每天只有\",\n    \"300K\",\n    \"tokens\"\n  ],\n  \"importance\": 0.85,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"technical\"\n  ],\n  \"created_at\": \"2026-03-03\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 307 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 307,
+              "response_chars": 53
+            }
+          }
+        },
+        "L3": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 402 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 402,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 412 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 412,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 411 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 411,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 402 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 402,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 412 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 412,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 411 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 411,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 402 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 402,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 412 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 412,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-002\"\n  :type decision\n  :text \"Groq 免費 API 每天只有 300K tokens (Kimi K2)，高頻任務不能用\"\n  :confidence 0.85\n  :decay (half-life 90)\n  :trigger (:when (mention \"Groq\" \"免費\" \"API\" \"每天只有\")\n            :action (recall-full))\n  :tags (\"decision\" \"technical\")\n  :meta (:created \"2026-03-03\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 411 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 411,
+              "response_chars": 53
+            }
+          }
+        }
+      }
+    },
+    {
+      "memory_id": "mem-003",
+      "original": "A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新",
+      "responses": {
+        "L1": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 107 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 107,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 117 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 117,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 116 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 116,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 107 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 107,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 117 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 117,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 116 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 116,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 107 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 107,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 117 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 117,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\nA-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 116 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 116,
+              "response_chars": 53
+            }
+          }
+        },
+        "L2": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 336 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 336,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 346 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 346,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 345 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 345,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 336 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 336,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 346 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 346,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 345 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 345,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 336 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 336,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 346 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 346,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"MEM\",\n    \"論文用\",\n    \"Zettelkasten\",\n    \"方法做\",\n    \"agent\",\n    \"記憶\"\n  ],\n  \"importance\": 0.9,\n  \"decay\": \"never\",\n  \"tags\": [\n    \"fact\",\n    \"high_priority\",\n    \"technical\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 345 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 345,
+              "response_chars": 53
+            }
+          }
+        },
+        "L3": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 424 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 424,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 434 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 434,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 433 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 433,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 424 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 424,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 434 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 434,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 433 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 433,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 424 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 424,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 434 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 434,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-003\"\n  :type fact\n  :text \"A-MEM 論文用 Zettelkasten 方法做 agent 記憶，新記憶能觸發舊記憶更新\"\n  :confidence 0.9\n  :decay never\n  :trigger (:when (mention \"MEM\" \"論文用\" \"Zettelkasten\" \"方法做\")\n            :action (recall-full))\n  :tags (\"fact\" \"high_priority\" \"technical\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 433 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 433,
+              "response_chars": 53
+            }
+          }
+        }
+      }
+    },
+    {
+      "memory_id": "mem-004",
+      "original": "每次 context 壓縮時自動刷重要記憶到 long-term storage",
+      "responses": {
+        "L1": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 110 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 110,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 109 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 109,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 110 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 110,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 109 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 109,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 110 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 110,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n每次 context 壓縮時自動刷重要記憶到 long-term storage。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 109 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 109,
+              "response_chars": 53
+            }
+          }
+        },
+        "L2": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 312 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 312,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 322 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 322,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 321 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 321,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 312 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 312,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 322 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 322,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 321 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 321,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 312 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 312,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 322 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 322,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"decision\",\n  \"keywords\": [\n    \"每次\",\n    \"context\",\n    \"壓縮時自動刷重要記憶到\",\n    \"long\",\n    \"term\",\n    \"storage\"\n  ],\n  \"importance\": 0.7,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"decision\",\n    \"architecture\"\n  ],\n  \"created_at\": \"2026-03-05\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 321 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 321,
+              "response_chars": 53
+            }
+          }
+        },
+        "L3": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 409 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 409,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 419 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 419,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 418 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 418,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 409 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 409,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 419 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 419,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 418 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 418,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 409 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 409,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 419 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 419,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-004\"\n  :type decision\n  :text \"每次 context 壓縮時自動刷重要記憶到 long-term storage\"\n  :confidence 0.7\n  :decay (half-life 90)\n  :trigger (:when (mention \"每次\" \"context\" \"壓縮時自動刷重要記憶到\" \"long\")\n            :action (recall-full))\n  :tags (\"decision\" \"architecture\")\n  :meta (:created \"2026-03-05\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 418 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 418,
+              "response_chars": 53
+            }
+          }
+        }
+      }
+    },
+    {
+      "memory_id": "mem-005",
+      "original": "存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬",
+      "responses": {
+        "L1": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 91 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 91,
+              "response_chars": 57
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 101 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 101,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 91 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 91,
+              "response_chars": 59
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 101 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 101,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 91 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 91,
+              "response_chars": 52
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 101 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 101,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L1 層表示：\n\n```\n存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬。\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 100 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 100,
+              "response_chars": 53
+            }
+          }
+        },
+        "L2": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 281 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 281,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 291 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 291,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 290 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 290,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 281 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 281,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 291 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 291,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 290 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 290,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 281 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 281,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 291 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 291,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L2 層表示：\n\n```\n{\n  \"category\": \"fact\",\n  \"keywords\": [\n    \"存股派投資策略\",\n    \"ETF\",\n    \"金融股為主\",\n    \"用富邦證券\",\n    \"月投10萬\"\n  ],\n  \"importance\": 0.8,\n  \"decay\": \"slow\",\n  \"tags\": [\n    \"fact\",\n    \"finance\"\n  ],\n  \"created_at\": \"2026-02-28\"\n}\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 290 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 290,
+              "response_chars": 53
+            }
+          }
+        },
+        "L3": {
+          "high": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 383 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 383,
+              "response_chars": 58
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 393 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 393,
+              "response_chars": 58
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-opus-4-6 with 392 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 392,
+              "response_chars": 58
+            }
+          },
+          "mid": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 383 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 383,
+              "response_chars": 60
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 393 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 393,
+              "response_chars": 60
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call claude-sonnet-4-6 with 392 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 392,
+              "response_chars": 60
+            }
+          },
+          "low": {
+            "basic": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶說了什麼？請用一句話總結。",
+              "response": "[DRY RUN] Would call gpt-5-mini with 383 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 383,
+              "response_chars": 53
+            },
+            "reasoning": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：基於這條記憶，如果需要做出相關決策，你會考慮什麼因素？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 393 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 393,
+              "response_chars": 53
+            },
+            "metacognition": {
+              "prompt": "以下是一條記憶的 L3 層表示：\n\n```\n(memory \"mem-005\"\n  :type fact\n  :text \"存股派投資策略：ETF + 金融股為主，用富邦證券，月投10萬\"\n  :confidence 0.8\n  :decay (half-life 90)\n  :trigger (:when (mention \"存股派投資策略\" \"ETF\" \"金融股為主\" \"用富邦證券\")\n            :action (recall-full))\n  :tags (\"fact\" \"finance\")\n  :meta (:created \"2026-02-28\"\n         :source \"encoder-v1\"\n         :access-count 0))\n```\n\n根據這條記憶，回答以下問題：這條記憶的重要性如何？什麼情況下它應該被遺忘或降級？",
+              "response": "[DRY RUN] Would call gpt-5-mini with 392 chars prompt",
+              "latency_ms": 0,
+              "error": null,
+              "prompt_chars": 392,
+              "response_chars": 53
+            }
+          }
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "by_layer_model": {
+      "L1": {
+        "high": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 105.3,
+          "avg_response_chars": 57.9
+        },
+        "mid": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 105.3,
+          "avg_response_chars": 59.9
+        },
+        "low": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 105.3,
+          "avg_response_chars": 52.9
+        }
+      },
+      "L2": {
+        "high": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 316.9,
+          "avg_response_chars": 58.0
+        },
+        "mid": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 316.9,
+          "avg_response_chars": 60.0
+        },
+        "low": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 316.9,
+          "avg_response_chars": 53.0
+        }
+      },
+      "L3": {
+        "high": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 414.1,
+          "avg_response_chars": 58.0
+        },
+        "mid": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 414.1,
+          "avg_response_chars": 60.0
+        },
+        "low": {
+          "calls": 15,
+          "errors": 0,
+          "error_rate": 0.0,
+          "avg_latency_ms": 0.0,
+          "avg_prompt_chars": 414.1,
+          "avg_response_chars": 53.0
+        }
+      }
+    },
+    "by_question": {
+      "basic": {
+        "calls": 45,
+        "errors": 0,
+        "error_rate": 0.0,
+        "avg_latency_ms": 0.0,
+        "avg_prompt_chars": 272.5,
+        "avg_response_chars": 56.9
+      },
+      "reasoning": {
+        "calls": 45,
+        "errors": 0,
+        "error_rate": 0.0,
+        "avg_latency_ms": 0.0,
+        "avg_prompt_chars": 282.5,
+        "avg_response_chars": 57.0
+      },
+      "metacognition": {
+        "calls": 45,
+        "errors": 0,
+        "error_rate": 0.0,
+        "avg_latency_ms": 0.0,
+        "avg_prompt_chars": 281.5,
+        "avg_response_chars": 57.0
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 date: 2026-03-15
 section: 5
-title: "Constitutional Governance"
+title: Constitutional Governance
 status: first-draft
 word_count: ~5000 (target)
 author: Mickey 🐭

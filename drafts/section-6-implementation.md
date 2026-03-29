@@ -1,12 +1,7 @@
 ---
-date: 2026-03-15
-section: 6
-title: "Implementation: The Mickey Agent"
-status: first-draft
-word_count: ~5000 (target)
-author: Mickey 🐭
+date: 2026-03-25
 type: note
-tags: [note, mac, implementation, mickey]
+tags: [note]
 ---
 
 # 6. Implementation: The Mickey Agent

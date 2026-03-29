@@ -1,18 +1,5 @@
 ---
-date: 2026-03-12
-section: 2
-title: Related Work (v2)
-status: revised-draft
-word_count: ~5000
-author: Mickey 🐭
-revision_from: section-2-related-work.md (2026-03-08)
-changes: |
-  - Added §2.1.5 Personality and Emotion in Agent Memory (from S4 literature)
-  - Expanded §2.1.4 with CoALA, Always On Memory Agent
-  - Strengthened §2.3.3 with deeper ACT-R/SOAR comparison (N6 concern)
-  - Added §2.4 Constitutional Governance and Self-Modification (from N2)
-  - Updated comparison table with personality and governance dimensions
-  - Added CoALA to §2.1.1
+date: 2026-03-25
 type: note
 tags: [note]
 ---

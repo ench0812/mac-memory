@@ -1,10 +1,5 @@
 ---
-date: 2026-03-08
-section: 3
-title: The Mentalese Hypothesis: Why AI Agents Need an Internal Language
-status: first-draft
-word_count: ~1800
-author: Mickey 🐭
+date: 2026-03-18
 type: note
 tags: [note]
 ---

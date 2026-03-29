@@ -1,14 +1,11 @@
 ---
 date: 2026-03-15
 section: 7
-title: "Evaluation"
+title: Evaluation
 status: first-draft
 word_count: ~6500
 author: Mickey 🐭
-data_sources:
-  - mac-eval/logs/ (117 rule evaluations, 3 days)
-  - mac-ab-test-v1/ (11 result files, 5 scenarios × 3 conditions)
-  - mac-eval/section7-data-analysis.json (aggregate report)
+data_sources: [mac-eval/logs/ (117 rule evaluations, 3 days), mac-ab-test-v1/ (11 result files, 5 scenarios × 3 conditions), mac-eval/section7-data-analysis.json (aggregate report)]
 type: note
 tags: [note, mac, evaluation, experiments]
 ---

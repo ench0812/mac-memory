@@ -1,12 +1,5 @@
 ---
-date: 2026-03-06
-paper: MemOS: A Memory OS for AI System
-authors: Zhiyu Li, Chenyang Xi, Chunyu Li, et al. (MemTensor + 多所大學)
-venue: arXiv 2507.03724v4 (Dec 2025)
-arxiv: 2507.03724
-code: https://github.com/MemTensor/MemOS
-rating: ⭐⭐⭐⭐
-status: ✅
+date: 2026-03-18
 type: note
 tags: [note]
 ---

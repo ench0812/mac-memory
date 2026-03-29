@@ -13,7 +13,7 @@ import json, time
 from datetime import datetime
 
 def get_api_key():
-    with open("~/.config/auth.json") as f:
+    with open("/home/mark/.openclaw/agents/main/agent/auth-profiles.json") as f:
         auth = json.load(f)
     return auth["profiles"]["anthropic:openclaw"]["token"]
 
@@ -323,7 +323,7 @@ def run():
     results["split_analysis"] = {"external_cause": {g: ext_summary[g]["total"] for g, _ in groups},
                                   "internal_feeling": {g: int_summary[g]["total"] for g, _ in groups}}
 
-    out = f"results/results-v5b-selective-{TIMESTAMP}.json"
+    out = f"/home/mark/clawd/experiments/mac-ab-test-v1/results-v5b-selective-{TIMESTAMP}.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

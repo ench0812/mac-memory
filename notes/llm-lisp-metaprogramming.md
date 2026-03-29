@@ -1,14 +1,7 @@
 ---
-date: 2026-03-11
-paper: "From Tool Calling to Symbolic Thinking: LLMs in a Persistent Lisp Metaprogramming Loop"
-authors: "Jordi de la Torre"
-venue: "arXiv preprint, 2025.06"
-arxiv: "2506.10021"
-rating: ⭐⭐⭐
-status: 📖
+date: 2026-03-25
 type: note
-tags: [note, lisp, metaprogramming, symbolic-ai, architecture]
-relevance_to_mac: 5/5
+tags: [note]
 ---
 
 # From Tool Calling to Symbolic Thinking: LLMs in a Persistent Lisp Metaprogramming Loop

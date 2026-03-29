@@ -7,7 +7,7 @@ from datetime import datetime
 
 # 動態取 fresh token
 def get_api_key():
-    with open("~/.config/auth.json") as f:
+    with open("/home/mark/.openclaw/agents/main/agent/auth-profiles.json") as f:
         auth = json.load(f)
     return auth["profiles"]["anthropic:openclaw"]["token"]
 
@@ -281,7 +281,7 @@ def run():
 
     results["summary"] = summary
 
-    out = f"results/results-v4-hybrid-{TIMESTAMP}.json"
+    out = f"/home/mark/clawd/experiments/mac-ab-test-v1/results-v4-hybrid-{TIMESTAMP}.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

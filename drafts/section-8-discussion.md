@@ -1,7 +1,7 @@
 ---
 date: 2026-03-15
 section: 8
-title: "Discussion"
+title: Discussion
 status: first-draft
 word_count: ~4000
 author: Mickey 🐭

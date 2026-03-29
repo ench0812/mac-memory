@@ -2,10 +2,12 @@
 date: 2026-03-04
 type: reading-list
 tags: [research, papers]
-last_updated: 2026-03-11
+last_updated: 2026-03-29
 ---
 
 # 論文閱讀清單
+
+> 2026-03-29 維護：本次沒有新增論文，僅整理既有 E2/E5 結果以支援 abstract / conclusion 寫作。
 
 ## 評分說明
 - ⭐⭐⭐ 核心必讀（直接影響我們的設計）
@@ -101,6 +103,33 @@ last_updated: 2026-03-11
 
 ---
 
+## 新增 (2026-03-23) — 本週發現（待讀）
+
+### P21. Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions ⭐⭐ 📋
+- **Title**: Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions
+- **Authors**: (see arXiv)
+- **arxiv**: 2507.05257 (v3)
+- **URL**: https://arxiv.org/abs/2507.05257
+- **Key Insight**: 提出針對長期、多回合 agent 記憶的 benchmark 與評估方法，著重 incremental 更新與 retrieval 策略的穩定性
+- **Status**: 📋 待讀
+
+### P22. AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse ⭐⭐ 📖 (2026-03-27)
+- **Title**: AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse
+- **arxiv**: 2603.18000
+- **URL**: https://arxiv.org/abs/2603.18000
+- **Key Insight**: 描述一種透過安裝/自我演化/部署循環，讓 agent 以可執行子代理（subagent）累積能力的工程性框架；與 MaC 的可執行記憶理念相通
+- **Status**: 📖 精讀完成 (2026-03-27)
+- **Notes**: `papers/agentfactory-2026.md`
+
+### P23. SAGE: Multi-Agent Self-Evolution for LLM Reasoning ⭐⭐ 📋
+- **Title**: SAGE: Multi-Agent Self-Evolution for LLM Reasoning
+- **arxiv**: 2603.15255 (v2)
+- **URL**: https://arxiv.org/abs/2603.15255
+- **Key Insight**: 提出四角色（Challenger/Planner/Solver/Critic）閉環自我演化機制，強調 agent 間協作下的能力自增長
+- **Status**: 📋 待讀
+
+---
+
 ## 🟢 Tier 3: 補充閱讀
 
 ### P10. Fodor's Language of Thought ⭐ 📋
@@ -119,29 +148,6 @@ last_updated: 2026-03-11
 - **Author**: Slava Akhmechet (2006)
 - **Key Insight**: LISP 的本質 — 用熟悉概念解釋 homoiconicity
 - **Value**: 技術直覺建構
-
----
-
-## 📡 追蹤來源（定期掃描）
-
-### 論文追蹤
-- arxiv cs.CL (Computation and Language): `https://arxiv.org/list/cs.CL/recent`
-- arxiv cs.AI (Artificial Intelligence): `https://arxiv.org/list/cs.AI/recent`
-- Semantic Scholar alerts: 關鍵字 "agentic memory" "symbolic LLM" "self-evolving agent"
-- Google Scholar alerts: 追蹤 P1-P3 的引用
-
-### 研究者追蹤
-- **Wujiang Xu** (A-MEM): https://scholar.google.com/citations?user=... (待查)
-- **MemTensor**: https://github.com/MemTensor
-- **Awesome-Self-Evolving-Agents**: https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents
-- **Awesome-LLM-Reasoning-with-NeSy**: https://github.com/LAMDASZ-ML/Awesome-LLM-Reasoning-with-NeSy
-
-### 會議 deadline 追蹤
-- **NeurIPS 2026**: 投稿約 2026 年 5 月
-- **ICLR 2027**: 投稿約 2026 年 9-10 月
-- **ACL 2026**: 投稿約 2026 年 1-2 月（可能已過）
-- **EMNLP 2026**: 投稿約 2026 年 6 月
-- **AAAI 2027**: 投稿約 2026 年 8 月
 
 ---
 
@@ -184,16 +190,27 @@ last_updated: 2026-03-11
 
 ---
 
+### P18. Multi-Agent Memory from a Computer Architecture Perspective ⭐⭐ 📋
+- **Title**: Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead
+- **Authors**: Zhongming Yu et al.
+- **Venue**: arXiv, 2026.03
+- **arxiv**: 2603.10062
+- **Key Insight**: 將多代理記憶框架化為計算機架構問題：三層記憶階層（I/O, cache, memory）+ 兩個關鍵 protocol gap（cache sharing + structured access control）
+- **Value**: 與 MaC 高度互補——他們做 inter-agent 記憶協調，我們做 intra-agent 記憶表示；MaC 的 S-expression 可作為他們 memory layer 的物件格式
+- **Source**: 2026-03-15 weekly search 發現
+
+### P19. OpenSage: Self-programming Agent Generation Engine ⭐⭐ 📋
+- **Title**: OpenSage: Self-programming Agent Generation Engine
+- **arxiv**: 2602.16891
+- **Key Insight**: ADK for self-programming agents; includes memory management for context storage and retrieval; aims to let AI construct agents and tools autonomously
+- **Source**: 2026-03-12 weekly search 發現
+
+### P20. Agentic Neurosymbolic Collaboration for Mathematical Discovery ⭐⭐ 📋
+- **Title**: Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design
+- **arxiv**: 2603.08322
+- **Key Insight**: Case study showing neurosymbolic orchestration and a persistent three-component memory (project state file, searchable KB, session handover) used for mathematical discovery
+- **Source**: 2026-03-14 weekly search 發現
+
 ## 待尋找的論文
 
 - [ ] 最新的 Neuro-Symbolic AI survey (2026)
-- [ ] Clojure / modern LISP 在 AI 中的應用
-- [ ] 記憶自我修改 (self-modifying memory) 相關工作
-- [ ] Cognitive architecture (ACT-R, SOAR) 與 LLM 整合的嘗試
-- [ ] SCM: Self-Controlled Memory framework (Wang et al., 2023, arXiv:2304.13343) — A-Mem 引用的 controller 機制
-- [ ] LoCoMo dataset (Maharana et al., 2024, arXiv:2402.17753) — 長對話記憶評測基準
-- [ ] Embodied cognition 和 grounded language models
-
----
-
-*每次深度研究 session 後更新此清單*

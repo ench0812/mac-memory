@@ -1,13 +1,7 @@
 ---
-date: 2026-03-14
-section: 4
-title: "MaC Architecture: Design and Implementation"
-status: first-draft
-word_count: ~8000 (target)
-author: Mickey 🐭
-revision_from: S2-S4 research notes
+date: 2026-03-25
 type: note
-tags: [note, mac, architecture]
+tags: [note]
 ---
 
 # 4. MaC Architecture

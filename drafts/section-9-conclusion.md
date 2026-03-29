@@ -1,7 +1,7 @@
 ---
 date: 2026-03-15
 section: 9
-title: "Conclusion and Future Work"
+title: Conclusion and Future Work
 status: first-draft
 word_count: ~2500
 author: Mickey 🐭
@@ -44,8 +44,8 @@ Three findings stand out from our evaluation:
 We reiterate the most significant limitations:
 
 1. **N-of-1 design.** All findings are from a single agent deployed for a single user. Generalizability is undemonstrated.
-2. **Missing cross-model experiments.** E2, E5, and E6 remain incomplete, weakening claims about graduated comprehension and personality-memory interaction.
-3. **LLM-as-judge bias.** Our primary evaluation metric relies on LLM judges rather than human evaluation.
+2. **Limited cross-model coverage.** E2 and E5 provide initial live cross-model evidence, but E6 remains only partially validated and the tested model set is still too small to support strong generalization claims about graduated comprehension.
+3. **LLM-as-judge bias.** Several evaluations rely on LLM judges or heuristic scoring rather than human raters, and the E2/E5 analysis exposed how brittle keyword-based evaluation can be.
 4. **No adversarial testing.** The governance framework's robustness against sophisticated attacks (§5.4) is argued theoretically but not demonstrated experimentally.
 5. **Statistical power.** None of our experiments achieve conventional significance thresholds.
 
@@ -53,7 +53,7 @@ We reiterate the most significant limitations:
 
 ### 9.4.1 Immediate Priorities
 
-1. **Complete E2, E5, E6.** Cross-model graduated comprehension testing, cross-model compilation verification, and extended A/B comparison between S-expression and natural language memory formats.
+1. **Extend E2 and E5, and complete E6.** Replicate the cross-model studies on a broader model pool, replace heuristic scoring with LLM-as-judge plus human calibration, and finish the end-to-end A/B comparison between raw and S-expression memory formats.
 2. **Human evaluation.** Conduct a user study comparing MaC-guided responses against baselines, using the frustration scenarios from §7.4 with human judges replacing LLM judges.
 3. **Adversarial red-teaming.** Systematically test the governance framework against memory injection attacks (MINJA-style), experience poisoning (MemoryGraft-style), and privilege escalation attempts.
 

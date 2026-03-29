@@ -1,18 +1,5 @@
 ---
-date: 2026-03-12
-section: 1
-title: Introduction (v2)
-status: revised-draft
-word_count: ~3000
-author: Mickey 🐭
-revision_from: section-1-introduction.md (2026-03-08)
-changes: |
-  - Added personality-memory interaction as 4th contribution (from S4)
-  - Added constitutional governance as 5th contribution (from N2)
-  - Updated experiment references with S4 results
-  - Strengthened opening scenario with multi-model + personality angle
-  - Added CoALA and Always On Memory Agent to framing
-  - Updated H2 validation status
+date: 2026-03-25
 type: note
 tags: [note]
 ---

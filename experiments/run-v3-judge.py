@@ -4,8 +4,12 @@
 
 import json, time
 from datetime import datetime
+from pathlib import Path
 
-with open("/home/mark/.openclaw/agents/main/agent/auth-profiles.json") as f:
+BASE = Path(__file__).resolve().parent
+AUTH_FILE = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
+
+with open(AUTH_FILE) as f:
     auth = json.load(f)
 API_KEY = auth["profiles"]["anthropic:openclaw"]["token"]
 
@@ -16,7 +20,7 @@ JUDGE_MODEL = "claude-sonnet-4-20250514"
 TIMESTAMP = datetime.now().strftime("%Y-%m-%d_%H%M")
 
 # 載入 v2 結果
-with open("/home/mark/clawd/experiments/mac-ab-test-v1/results-v2-2026-03-09_0838.json") as f:
+with open(BASE / "results-v2-2026-03-09_0838.json") as f:
     v2_data = json.load(f)
 
 # 評估維度
@@ -169,7 +173,7 @@ def run():
     
     results["summary"] = global_avg
     
-    out = f"/home/mark/clawd/experiments/mac-ab-test-v1/results-v3-judge-{TIMESTAMP}.json"
+    out = BASE / f"results-v3-judge-{TIMESTAMP}.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     

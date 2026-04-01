@@ -11,9 +11,13 @@
 
 import json, time
 from datetime import datetime
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+AUTH_FILE = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
 
 def get_api_key():
-    with open("/home/mark/.openclaw/agents/main/agent/auth-profiles.json") as f:
+    with open(AUTH_FILE) as f:
         auth = json.load(f)
     return auth["profiles"]["anthropic:openclaw"]["token"]
 
@@ -323,7 +327,7 @@ def run():
     results["split_analysis"] = {"external_cause": {g: ext_summary[g]["total"] for g, _ in groups},
                                   "internal_feeling": {g: int_summary[g]["total"] for g, _ in groups}}
 
-    out = f"/home/mark/clawd/experiments/mac-ab-test-v1/results-v5b-selective-{TIMESTAMP}.json"
+    out = BASE / f"results-v5b-selective-{TIMESTAMP}.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

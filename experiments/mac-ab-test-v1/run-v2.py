@@ -3,10 +3,14 @@
 
 import json, time, os
 from datetime import datetime
+from pathlib import Path
 
-with open("
+BASE = Path(__file__).resolve().parent
+AUTH_FILE = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
+
+with open(AUTH_FILE) as f:
     auth = json.load(f)
-API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
+API_KEY = auth["profiles"]["anthropic:openclaw"]["token"]
 
 import anthropic
 client = anthropic.Anthropic(api_key=API_KEY)
@@ -205,7 +209,7 @@ def run():
         for g in ["A_NL", "B_SE"]
     }
 
-    out = f"./results-v2-{TIMESTAMP}.json"
+    out = BASE / f"results-v2-{TIMESTAMP}.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

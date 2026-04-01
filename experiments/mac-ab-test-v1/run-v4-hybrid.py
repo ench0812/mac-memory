@@ -4,12 +4,16 @@
 
 import json, time
 from datetime import datetime
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+AUTH_FILE = Path.home() / ".openclaw/agents/main/agent/auth-profiles.json"
 
 # 動態取 fresh token
 def get_api_key():
-    with open("
+    with open(AUTH_FILE) as f:
         auth = json.load(f)
-    return os.environ.get('ANTHROPIC_API_KEY', '')
+    return auth["profiles"]["anthropic:openclaw"]["token"]
 
 import anthropic
 
@@ -281,7 +285,7 @@ def run():
 
     results["summary"] = summary
 
-    out = f"./results-v4-hybrid-{TIMESTAMP}.json"
+    out = BASE / f"results-v4-hybrid-{TIMESTAMP}.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

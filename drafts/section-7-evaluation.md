@@ -3,7 +3,7 @@ date: 2026-04-01
 section: 7
 title: Evaluation
 status: revised
-word_count: ~7000
+word_count: ~2900
 author: Mickey 🐭
 data_sources: [mac-eval/logs/ (117 rule evaluations, 3 days), mac-ab-test-v1/ (11+ result files, 5 scenarios × 3 conditions), mac-eval/section7-data-analysis.json (aggregate report), mac-ab-test-v1/results-v5e-robustness-analysis-2026-04-01_1603.json (best-vs-robustness analysis)]
 type: note

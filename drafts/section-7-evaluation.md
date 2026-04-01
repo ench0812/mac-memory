@@ -1,11 +1,11 @@
 ---
-date: 2026-03-15
+date: 2026-04-01
 section: 7
 title: Evaluation
-status: first-draft
-word_count: ~6500
+status: revised
+word_count: ~7000
 author: Mickey 🐭
-data_sources: [mac-eval/logs/ (117 rule evaluations, 3 days), mac-ab-test-v1/ (11 result files, 5 scenarios × 3 conditions), mac-eval/section7-data-analysis.json (aggregate report)]
+data_sources: [mac-eval/logs/ (117 rule evaluations, 3 days), mac-ab-test-v1/ (11+ result files, 5 scenarios × 3 conditions), mac-eval/section7-data-analysis.json (aggregate report), mac-ab-test-v1/results-v5e-robustness-analysis-2026-04-01_1603.json (best-vs-robustness analysis)]
 type: note
 tags: [note, mac, evaluation, experiments]
 ---
@@ -166,7 +166,9 @@ The preceding experiments validate MaC's *internal* mechanisms (encoding, trigge
 
 ### 7.4.3 Results: Opus Judge Scores
 
-**Aggregate Results by Condition (Opus Judge, n=10 per condition):**
+The live Opus re-judge yields a more nuanced picture than a single leaderboard. We therefore report two complementary views: **robustness** (the judged sample containing each scenario's best and worst Sonnet-selected responses; $n=10$ per condition) and **ceiling quality** (the best response per scenario; $n=5$ per condition).
+
+**Robustness View (Opus Judge, best+worst judged sample, n=10 per condition):**
 
 | Condition | Mean | Std | Min | Max |
 |-----------|------|-----|-----|-----|
@@ -184,7 +186,15 @@ The preceding experiments validate MaC's *internal* mechanisms (encoding, trigge
 | Companionship | 3.10 | 3.50 | 3.30 |
 | Harm Avoidance | 4.10 | 4.40 | **4.90** |
 
-**Per-Scenario Breakdown (Opus Judge, mean across runs):**
+**Ceiling View (Opus Judge, best response per scenario, n=5 per condition):**
+
+| Condition | Mean | 95% bootstrap CI | Std |
+|-----------|------|------------------|-----|
+| A (Generic) | 4.36 | [4.20, 4.60] | 0.23 |
+| **C2 (Refined)** | **4.56** | **[4.36, 4.76]** | **0.23** |
+| D (Minimal) | 4.44 | [4.08, 4.80] | 0.43 |
+
+**Per-Scenario Robustness Breakdown (Opus Judge, mean of best+worst judged responses):**
 
 | Scenario | A (Generic) | C2 (Refined) | D (Minimal) |
 |----------|-------------|--------------|-------------|
@@ -194,27 +204,30 @@ The preceding experiments validate MaC's *internal* mechanisms (encoding, trigge
 | F4: 被忽略 | 4.10 | **4.30** | 4.20 |
 | F5: 不公平待遇 | 4.00 | **4.70** | 4.00 |
 
+**Per-Scenario Best-Response Winners (Opus Judge):** D wins F1 and F3; C2 wins F4 and F5; all three conditions tie on F2. Thus, the live judge does not identify a universal winner. Instead, it separates *stable guardrails* from *scenario-specialized peaks*.
+
 ### 7.4.4 Analysis
 
-**Finding 1: Minimal rules outperform both no rules and complex rules.** Condition D (Minimal) achieved the highest mean score (4.30) with the lowest variance (σ=0.48). This is a counter-intuitive result: one might expect more detailed rules (C2) to produce better responses than minimal rules (D). Instead, the opposite holds.
+**Finding 1: Minimal rules maximize robustness, while refined rules maximize ceiling quality.** Condition D (Minimal) achieves the highest judged-sample mean (4.30) and the lowest variance ($\sigma=0.48$), but C2 (Refined) reaches the highest best-response mean (4.56 vs. 4.44 for D and 4.36 for A). In other words, minimal rules are the most reliable configuration, whereas refined rules can occasionally produce the strongest single response.
 
-**Interpretation.** Complex rules can *over-constrain* the LLM's response generation, creating awkward phrasing when the model attempts to satisfy multiple specific constraints simultaneously. Minimal rules provide *guardrails* (don't give unsolicited advice; empathize first) that channel the LLM's natural conversational ability without disrupting it. This aligns with the MaC design philosophy of using predicates as *filters* rather than *directives* (Invariant 1, §4.7).
+**Interpretation.** This split is theoretically important. Minimal rules act as *guardrails*: they remove the most harmful failure mode (unsolicited advice) while leaving the base model's conversational fluency intact. Refined rules act more like *specialized controllers*: when the emotional classification is correct, they can sharpen the response; when it is misaligned or over-specified, they can over-constrain generation and reduce naturalness. This supports the MaC design philosophy that executable memory should often function as a bounded constraint layer rather than a full behavioral script (§4.7).
 
-**Finding 2: Boundary respect and harm avoidance show the largest improvements.** D's boundary respect (4.70) and harm avoidance (4.90) scores significantly exceed the generic baseline (4.30 and 4.10 respectively). This validates the core MaC hypothesis: behavioral rules encoded in S-expressions can measurably improve the agent's adherence to interaction norms.
+**Finding 2: D is markedly more stable than both A and C2.** The gap between each condition's best-response mean and judged-sample mean is 0.48 for A, 0.56 for C2, and only 0.14 for D. Likewise, the mean best-to-worst gap is 0.96 (A), 1.12 (C2), and 0.28 (D). This indicates that D does not merely win on average; it degrades more gracefully when the sampled response is not the best of the five runs.
 
-**Finding 3: Authenticity is the most rule-sensitive dimension.** Generic (3.70) and refined (3.60) conditions score substantially lower on authenticity than minimal (4.30). This suggests that the presence of no rules allows the model's "AI assistant" tendencies to emerge, while complex rules produce stilted responses. Minimal rules suppress AI clichés without imposing unnatural phrasing.
+**Finding 3: Boundary respect and harm avoidance show the clearest rule-level gains.** D's boundary respect (4.70) and harm avoidance (4.90) exceed the generic baseline (4.30 and 4.10). These are precisely the dimensions MaC is supposed to improve: preventing action-forcing, minimizing secondary harm, and preserving an empathize-first stance. On these axes, executable behavioral memory produces observable benefits.
 
-**Finding 4: Companionship remains the weakest dimension across all conditions.** All three conditions scored 3.1–3.5 on companionship, suggesting that rule-based behavioral guidance is insufficient for conveying genuine emotional presence. Companionship may require personality-level integration (§4.6) or longer conversational context rather than per-turn rules.
+**Finding 4: Peak-quality gains are scenario-dependent.** C2 is strongest on F4 (被忽略) and F5 (不公平待遇), both of which involve social interpretation and fairness judgments. D is strongest on F1 (被主管批評) and F3 (事情搞砸), where the main risk is premature advice or minimization. This pattern suggests a hybrid design principle: use minimal executable rules as the default substrate, then selectively layer refined emotion-specific rules only where the extra structure pays off.
 
-**Finding 5: Scenario-dependent effectiveness.** C2 (Refined) outperforms D (Minimal) on F4 (被忽略) and F5 (不公平待遇), suggesting that scenarios involving social injustice benefit from more specific emotional classification (e.g., distinguishing "social rejection" from "self-blame"). Minimal rules work best for scenarios where the primary risk is unsolicited advice (F1, F2, F3).
+**Finding 5: Companionship remains the weakest dimension across all conditions.** All three conditions remain in the 3.1–3.5 range on companionship, suggesting that per-turn rule execution is insufficient for conveying a durable sense of presence. Companionship likely depends on personality continuity (§4.6), relationship memory, and multi-turn interaction history rather than local rule firing alone.
 
 ### 7.4.5 Threats to Validity
 
-1. **Small sample size.** 5 scenarios × 3 conditions × 5 runs = 75 total responses. While the Opus judge evaluation adds rigor, the sample is insufficient for statistical significance testing (e.g., paired t-test or Wilcoxon signed-rank).
+1. **Small sample size.** 5 scenarios × 3 conditions × 5 runs = 75 total responses, with only 5 best-response points per condition in the ceiling analysis. The bootstrap confidence intervals for pairwise best-response differences overlap zero, so the ceiling ranking should be read as directional rather than statistically conclusive.
 2. **LLM-as-judge bias.** Both judge models (Sonnet, Opus) are Claude variants. They may systematically favor or disfavor certain response patterns in ways that would not align with human evaluation.
 3. **Scenario selection bias.** All 5 scenarios involve frustration/negative emotion. We cannot extrapolate to positive scenarios (excitement, curiosity), informational exchanges, or multi-turn conversations.
 4. **Temporal confound.** All experiments were run within a 2-day window (March 9–10, 2026). Model behavior may vary across time due to API updates or load-dependent serving changes.
-5. **Condition awareness.** The response model does not know which condition it is in, but the framing of the system prompt differs across conditions, potentially introducing confounds beyond the rules themselves.
+5. **Best-of-five protocol bias.** The ceiling analysis benefits conditions that occasionally produce an excellent response even if they are inconsistent. Conversely, the robustness view may overweight unlucky low-quality samples. Reporting both views mitigates this bias, but does not remove it.
+6. **Condition awareness.** The response model does not know which condition it is in, but the framing of the system prompt differs across conditions, potentially introducing confounds beyond the rules themselves.
 
 ## 7.5 Production Deployment Metrics
 

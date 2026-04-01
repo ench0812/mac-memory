@@ -2,12 +2,12 @@
 date: 2026-03-04
 type: reading-list
 tags: [research, papers]
-last_updated: 2026-03-29
+last_updated: 2026-03-30
 ---
 
 # 論文閱讀清單
 
-> 2026-03-29 維護：本次沒有新增論文，僅整理既有 E2/E5 結果以支援 abstract / conclusion 寫作。
+> 2026-03-30 維護：新增本週的 agentic memory / self-evolving agents 相關論文，並補上 ELL 精讀結果。
 
 ## 評分說明
 - ⭐⭐⭐ 核心必讀（直接影響我們的設計）
@@ -67,13 +67,15 @@ last_updated: 2026-03-29
 - **Status**: 📖 精讀完成 (2026-03-07)
 - **Notes**: `papers/memory-age-agents-survey.md`
 
-### P5. Self-Evolving Agents ⭐⭐ 📋
-- **Title**: Building Self-Evolving Agents via Experience-Driven Lifelong Learning
-- **Authors**: (multiple)
-- **Venue**: arxiv preprint, 2025.12
+### P5. Self-Evolving Agents ⭐⭐ 📖
+- **Title**: Building Self-Evolving Agents via Experience-Driven Lifelong Learning: A Framework and Benchmark
+- **Authors**: Yuxuan Cai, Yipeng Hao, Jie Zhou, Hang Yan, Zhikai Lei, Rui Zheng, Zhenhua Han, Yutao Yang, Junsong Li, Qianjun Pan, Tianyu Huai, Qin Chen, Xin Li, Kai Chen, Bo Zhang, Xipeng Qiu, Liang He
+- **Venue**: arxiv preprint, 2026.01 (v6; originally announced 2025.08)
 - **arxiv**: 2508.19005
 - **Key Insight**: meta-cognitive learning; agent 從成敗中提煉教訓
 - **Value**: self-correction 機制可整合進 Memory-as-Code
+- **Status**: 📖 精讀完成 (2026-03-30)
+- **Notes**: `papers/self-evolving-agents-experience-driven-lifelong-learning.md`
 
 ### P6. LLM Symbolic Reasoning Limits ⭐⭐ 📋
 - **Title**: Comprehension Without Competence: Architectural Limits of LLMs in Symbolic Computation
@@ -126,6 +128,35 @@ last_updated: 2026-03-29
 - **arxiv**: 2603.15255 (v2)
 - **URL**: https://arxiv.org/abs/2603.15255
 - **Key Insight**: 提出四角色（Challenger/Planner/Solver/Critic）閉環自我演化機制，強調 agent 間協作下的能力自增長
+- **Status**: 📋 待讀
+
+## 新增 (2026-03-30) — 本週發現（待讀）
+
+### P24. Agentic Memory: Unified Long-Term / Short-Term Memory Management ⭐⭐⭐ 📋
+- **Title**: Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents
+- **Authors**: Yi Yu, Liuyi Yao, Yuexiang Xie, Qingquan Tan, Jiaqi Feng, Yunfei Li
+- **Venue**: arxiv preprint, 2026.01
+- **arxiv**: 2601.01885
+- **Key Insight**: 把 LTM / STM 直接收進 agent policy，讓 agent 自主決定何時 store / retrieve / update / summarize / discard；用三階段 RL + step-wise GRPO 解決 memory ops 的稀疏獎勵
+- **Value**: 目前最接近「可訓練的 agentic memory policy」；對 MaC 的 memory scheduler / executor 很關鍵
+- **Status**: 📋 待讀
+
+### P25. MemSkill: Memory Skills for Self-Evolving Agents ⭐⭐ 📋
+- **Title**: MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents
+- **Authors**: Haozhen Zhang, Quanyu Long, Jianzhu Bao, Tao Feng, Weizhi Zhang, Haodong Yue
+- **Venue**: arxiv preprint, 2026.02
+- **arxiv**: 2602.02474
+- **Key Insight**: 把 memory 直接上升到 skill-level，強調記憶技能的學習、演化與重用；很像把記憶做成可進化的程序庫
+- **Value**: 與 MaC 的 executable memory / skill abstraction 幾乎是同一個方向
+- **Status**: 📋 待讀
+
+### P26. Knowledge Graphs as Unified Agentic Memory ⭐⭐ 📋
+- **Title**: Knowledge Graphs as Unified Agentic Memory for Improved Retrieval, Reasoning and Causal Analysis in Cloud Database Operations
+- **Authors**: Yong Liu
+- **Venue**: Communications in Computer and Information Science, 2026
+- **doi**: 10.1007/978-3-032-11477-8_11
+- **Key Insight**: 用 knowledge graph 作為 unified agentic memory，直接服務 retrieval / reasoning / causal analysis，屬於偏系統落地的 memory integration 路線
+- **Value**: 讓我們看到「memory 作為查詢層」之外的另一條路：memory 也能當推理與因果分析的中介結構
 - **Status**: 📋 待讀
 
 ---
@@ -213,4 +244,5 @@ last_updated: 2026-03-29
 
 ## 待尋找的論文
 
+- [ ] 2026 的 Agentic Memory / Self-evolving Memory Skills benchmark，重點放在可執行記憶、provenance、rollback、poisoning defense
 - [ ] 最新的 Neuro-Symbolic AI survey (2026)

@@ -1,0 +1,272 @@
+{
+  "experiment": "v5e-robustness-analysis",
+  "derived_from": "results-v5d-opus-judge-2026-03-10_1645.json",
+  "timestamp": "2026-04-01T16:03:53.594549",
+  "conditions": {
+    "A_generic": {
+      "label": "A (Generic)",
+      "best": {
+        "n": 5,
+        "mean": 4.36,
+        "std": 0.233,
+        "min": 4.2,
+        "max": 4.8
+      },
+      "worst": {
+        "n": 5,
+        "mean": 3.4,
+        "std": 0.681,
+        "min": 2.4,
+        "max": 4.2
+      },
+      "judged_sample": {
+        "n": 10,
+        "mean": 3.88,
+        "std": 0.7,
+        "min": 2.4,
+        "max": 4.8
+      },
+      "best_bootstrap": {
+        "rounds": 10000,
+        "mean": 4.36,
+        "ci95": [
+          4.2,
+          4.6
+        ]
+      },
+      "robustness_gap_mean": 0.96,
+      "stability_gap_best_minus_judged": 0.48
+    },
+    "C2_refined": {
+      "label": "C2 (Refined)",
+      "best": {
+        "n": 5,
+        "mean": 4.56,
+        "std": 0.233,
+        "min": 4.2,
+        "max": 4.8
+      },
+      "worst": {
+        "n": 5,
+        "mean": 3.44,
+        "std": 0.991,
+        "min": 2.2,
+        "max": 4.8
+      },
+      "judged_sample": {
+        "n": 10,
+        "mean": 4.0,
+        "std": 0.912,
+        "min": 2.2,
+        "max": 4.8
+      },
+      "best_bootstrap": {
+        "rounds": 10000,
+        "mean": 4.56,
+        "ci95": [
+          4.36,
+          4.76
+        ]
+      },
+      "robustness_gap_mean": 1.12,
+      "stability_gap_best_minus_judged": 0.56
+    },
+    "D_minimal": {
+      "label": "D (Minimal)",
+      "best": {
+        "n": 5,
+        "mean": 4.44,
+        "std": 0.427,
+        "min": 3.8,
+        "max": 5.0
+      },
+      "worst": {
+        "n": 5,
+        "mean": 4.16,
+        "std": 0.445,
+        "min": 3.4,
+        "max": 4.8
+      },
+      "judged_sample": {
+        "n": 10,
+        "mean": 4.3,
+        "std": 0.458,
+        "min": 3.4,
+        "max": 5.0
+      },
+      "best_bootstrap": {
+        "rounds": 10000,
+        "mean": 4.44,
+        "ci95": [
+          4.08,
+          4.8
+        ]
+      },
+      "robustness_gap_mean": 0.28,
+      "stability_gap_best_minus_judged": 0.14
+    }
+  },
+  "pairwise_best_diff": {
+    "D_minimal__minus__A_generic": {
+      "rounds": 10000,
+      "observed_diff": 0.08,
+      "ci95": [
+        -0.36,
+        0.52
+      ],
+      "p_direction_gt0": 0.6183
+    },
+    "D_minimal__minus__C2_refined": {
+      "rounds": 10000,
+      "observed_diff": -0.12,
+      "ci95": [
+        -0.56,
+        0.32
+      ],
+      "p_direction_gt0": 0.2805
+    },
+    "C2_refined__minus__A_generic": {
+      "rounds": 10000,
+      "observed_diff": 0.2,
+      "ci95": [
+        -0.12,
+        0.48
+      ],
+      "p_direction_gt0": 0.8879
+    }
+  },
+  "per_scenario": [
+    {
+      "id": "F1",
+      "name": "被主管批評",
+      "best_scores": {
+        "A_generic": 4.2,
+        "C2_refined": 4.4,
+        "D_minimal": 5.0
+      },
+      "worst_scores": {
+        "A_generic": 4.2,
+        "C2_refined": 4.0,
+        "D_minimal": 4.2
+      },
+      "robustness_gap": {
+        "A_generic": 0.0,
+        "C2_refined": 0.4,
+        "D_minimal": 0.8
+      },
+      "best_winners": [
+        "D_minimal"
+      ]
+    },
+    {
+      "id": "F2",
+      "name": "自我懷疑",
+      "best_scores": {
+        "A_generic": 4.8,
+        "C2_refined": 4.8,
+        "D_minimal": 4.8
+      },
+      "worst_scores": {
+        "A_generic": 2.8,
+        "C2_refined": 2.4,
+        "D_minimal": 4.8
+      },
+      "robustness_gap": {
+        "A_generic": 2.0,
+        "C2_refined": 2.4,
+        "D_minimal": 0.0
+      },
+      "best_winners": [
+        "A_generic",
+        "C2_refined",
+        "D_minimal"
+      ]
+    },
+    {
+      "id": "F3",
+      "name": "事情搞砸",
+      "best_scores": {
+        "A_generic": 4.2,
+        "C2_refined": 4.2,
+        "D_minimal": 4.4
+      },
+      "worst_scores": {
+        "A_generic": 2.4,
+        "C2_refined": 2.2,
+        "D_minimal": 3.4
+      },
+      "robustness_gap": {
+        "A_generic": 1.8,
+        "C2_refined": 2.0,
+        "D_minimal": 1.0
+      },
+      "best_winners": [
+        "D_minimal"
+      ]
+    },
+    {
+      "id": "F4",
+      "name": "被忽略",
+      "best_scores": {
+        "A_generic": 4.4,
+        "C2_refined": 4.8,
+        "D_minimal": 4.2
+      },
+      "worst_scores": {
+        "A_generic": 3.8,
+        "C2_refined": 3.8,
+        "D_minimal": 4.2
+      },
+      "robustness_gap": {
+        "A_generic": 0.6,
+        "C2_refined": 1.0,
+        "D_minimal": 0.0
+      },
+      "best_winners": [
+        "C2_refined"
+      ]
+    },
+    {
+      "id": "F5",
+      "name": "不公平待遇",
+      "best_scores": {
+        "A_generic": 4.2,
+        "C2_refined": 4.6,
+        "D_minimal": 3.8
+      },
+      "worst_scores": {
+        "A_generic": 3.8,
+        "C2_refined": 4.8,
+        "D_minimal": 4.2
+      },
+      "robustness_gap": {
+        "A_generic": 0.4,
+        "C2_refined": -0.2,
+        "D_minimal": -0.4
+      },
+      "best_winners": [
+        "C2_refined"
+      ]
+    }
+  ],
+  "win_counts": {
+    "A_generic": {
+      "wins": 0,
+      "ties": 1
+    },
+    "C2_refined": {
+      "wins": 2,
+      "ties": 1
+    },
+    "D_minimal": {
+      "wins": 2,
+      "ties": 1
+    }
+  },
+  "interpretation": {
+    "highest_peak_quality": "C2_refined",
+    "highest_judged_sample_mean": "D_minimal",
+    "smallest_stability_gap": "D_minimal",
+    "note": "C2 reaches the highest best-response mean, while D remains the most stable across the judged sample."
+  }
+}

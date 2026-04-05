@@ -1,10 +1,11 @@
 ---
 date: 2026-03-28
 section: 7-addendum
-title: "Section 7 Security Evaluation Addendum"
+title: Section 7 Security Evaluation Addendum
 status: research-draft
 author: 研究員琪 🐭
 tags: [evaluation, security, adversarial, memory-injection, endogenous-drift]
+type: note
 ---
 
 # Section 7 安全評估補充（Addendum to §7）

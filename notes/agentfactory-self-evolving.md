@@ -1,11 +1,5 @@
 ---
-date: 2026-03-24
-paper: AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse
-authors: Zhang Zhang, Shuqi Lu, Hongjin Qian, Di He, Zheng Liu
-venue: arXiv
-arxiv: 2603.18000
-rating: ⭐⭐
-status: 📖
+date: 2026-04-01
 type: note
 tags: [note]
 ---

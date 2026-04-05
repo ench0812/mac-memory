@@ -2,7 +2,7 @@
 date: 2026-03-04
 type: reading-list
 tags: [research, papers]
-last_updated: 2026-03-30
+last_updated: 2026-04-03
 ---
 
 # 論文閱讀清單
@@ -132,14 +132,15 @@ last_updated: 2026-03-30
 
 ## 新增 (2026-03-30) — 本週發現（待讀）
 
-### P24. Agentic Memory: Unified Long-Term / Short-Term Memory Management ⭐⭐⭐ 📋
+### P24. Agentic Memory: Unified Long-Term / Short-Term Memory Management ⭐⭐⭐ 📖 (2026-04-03)
 - **Title**: Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents
-- **Authors**: Yi Yu, Liuyi Yao, Yuexiang Xie, Qingquan Tan, Jiaqi Feng, Yunfei Li
-- **Venue**: arxiv preprint, 2026.01
+- **Authors**: Yi Yu, Liuyi Yao, Yuexiang Xie, Qingquan Tan, Jiaqi Feng, Yaliang Li, Libing Wu
+- **Venue**: arxiv preprint, 2026.01 (Alibaba + Wuhan Univ)
 - **arxiv**: 2601.01885
 - **Key Insight**: 把 LTM / STM 直接收進 agent policy，讓 agent 自主決定何時 store / retrieve / update / summarize / discard；用三階段 RL + step-wise GRPO 解決 memory ops 的稀疏獎勵
-- **Value**: 目前最接近「可訓練的 agentic memory policy」；對 MaC 的 memory scheduler / executor 很關鍵
-- **Status**: 📋 待讀
+- **Value**: 目前最接近「可訓練的 agentic memory policy」；實驗證明統一管理 > 分離管理（+4.82pp over best baseline）；對 MaC 的 memory scheduler / executor / reward 設計很關鍵
+- **Status**: 📖 精讀完成 (2026-04-03)
+- **Notes**: `papers/agemem-unified-ltm-stm.md`
 
 ### P25. MemSkill: Memory Skills for Self-Evolving Agents ⭐⭐ 📋
 - **Title**: MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents
@@ -158,6 +159,40 @@ last_updated: 2026-03-30
 - **Key Insight**: 用 knowledge graph 作為 unified agentic memory，直接服務 retrieval / reasoning / causal analysis，屬於偏系統落地的 memory integration 路線
 - **Value**: 讓我們看到「memory 作為查詢層」之外的另一條路：memory 也能當推理與因果分析的中介結構
 - **Status**: 📋 待讀
+
+## 新增 (2026-04-01) — 本週發現（待讀）
+
+### P27. CompassMem: Event-Centric Memory as a Logic Map ⭐⭐ 📋
+- **Title**: Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning
+- **Authors**: Yuyang Hu, Jiongnan Liu, Jiejun Tan, Yutao Zhu, Zhicheng Dou
+- **Venue**: arxiv preprint, 2026.01
+- **arxiv**: 2601.04726
+- **URL**: https://arxiv.org/abs/2601.04726
+- **Key Insight**: CompassMem 把記憶組成 Event Graph，透過明確的邏輯關係做記憶導航，而不是只靠 similarity retrieval
+- **Value**: 很接近 MaC 想要的「可導航記憶表示」；可對照我們的 graph-backed memory IR / planner
+- **Status**: 📋 待讀
+- **Source**: 2026-04-01 weekly search 發現
+
+### P28. MAGMA: Multi-Graph Agentic Memory Architecture ⭐⭐ 📋
+- **Title**: MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents
+- **Authors**: Dongming Jiang, Yi Li, Guanpeng Li, Bingzhe Li
+- **Venue**: arxiv preprint, 2026.01
+- **arxiv**: 2601.03236
+- **URL**: https://arxiv.org/abs/2601.03236
+- **Key Insight**: 把 memory item 拆成 semantic / temporal / causal / entity 四種 graph，retrieval 則變成 policy-guided graph traversal
+- **Value**: 代表「memory representation 與 retrieval logic 解耦」的實作方向；對 MaC 的 query planner 很有參考價值
+- **Status**: 📋 待讀
+- **Source**: 2026-04-01 weekly search 發現
+
+### P29. Adaptive LLM-Symbolic Reasoning ⭐⭐ 📋
+- **Title**: Adaptive LLM-Symbolic Reasoning via Dynamic Logical Solver Composition
+- **Authors**: Lei Xu, Pierre Beckmann, Marco Valentino, André Freitas
+- **Venue**: EACL 2026
+- **URL**: https://aclanthology.org/2026.eacl-long.54/
+- **Key Insight**: 先由 LLM 判斷問題需要哪種 formal reasoning strategy，再動態組合對應的 logical solver；讓神經式與符號式推理變成可路由的框架
+- **Value**: 給 MaC 的 symbolic reasoning pipeline 一個可插拔 solver layer，補強純 LISP / 程序式推理
+- **Status**: 📋 待讀
+- **Source**: 2026-04-01 weekly search 發現
 
 ---
 

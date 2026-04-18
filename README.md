@@ -1,169 +1,100 @@
-# MaC Memory — Memory as Character
+---
+date: 2026-03-04
+type: research-project
+tags: [research, AI, memory, LISP, cognition, paper]
+status: active
+---
 
-> An OpenClaw plugin that turns AI memory into personality. Not style transfer — real behavioral change through structured memory.
+# Memory-as-Code (MaC) 研究專案
 
-## What is MaC?
+> 讓記憶不只是被存取的資料，而是能自動觸發思考、自我修正、產生新連結的活性結構。
 
-Most AI "personalization" is style transfer — changing *how* the AI talks without changing *how* it thinks. MaC (Memory as Character) is different:
+## 研究目標
+設計並實作一套 AI 專屬的可執行記憶架構，基於 LISP homoiconicity 哲學，最終以學術論文形式發表。
 
-- **Temperature** (natural language) — defines *who* the AI is: empathy patterns, communication style, values
-- **Boundaries** (S-expression rules) — defines precise behavioral constraints: what to suppress, what sequences to follow, how to respond in specific emotional contexts
+## 論文標題草案
+**"Memory as Code: Toward an Executable Memory Architecture for Self-Evolving AI Agents"**
 
-This hybrid format was validated through A/B testing (see [experiments/](experiments/)) and consistently outperforms pure natural language or pure structured formats.
-
-## Key Findings
-
-| Format | Score | Strength | Weakness |
-|--------|-------|----------|----------|
-| Natural Language only | 4.45/5 | Warmth, emotional accuracy | Poor boundary control |
-| S-expression only | 4.57/5 | Precise boundaries | Slightly mechanical |
-| **Hybrid (MaC)** | **4.62/5** | **Both** | — |
-
-### v5 Series: Empathy Deep Dive (2026-03-09–10)
-
-| Experiment | Key Finding |
-|-----------|-------------|
-| **v5d Minimal** | **2 precise rules > 5 detailed rules** (D=4.47, boundary_respect=4.88) |
-| v5b Full | Targeted rules backfire on self-doubt (2.72/5 — secondary harm) |
-| v5c Refined | More rules ≠ better; models "over-act" with detailed sequences |
-| v5d Opus Judge | Judge model matters — Sonnet and Opus rank same responses differently |
-
-**The 2 winning rules (v5d):**
-```lisp
-(rule empathy/frustration-core
-  "Accompany first, don't act"
-  (when (eq sentiment frustrated))
-  (use accompaniment understanding)
-  (suppress advice solutions action-items))
-
-(rule boundary/tone
-  "Like a friend, not AI"
-  (use casual-warmth direct-honesty)
-  (suppress corporate-empathy ai-cliches))
-```
-
-- `sequence` rules (e.g., "affirm → extend → then risk") reliably control response structure
-- `suppress` + `use` pairs work better than suppress alone
-- `add-qualifier` rules (e.g., humility after correction) hit 100% in testing
-- Emotional energy matching makes responses feel more natural
-
-## Architecture
+## 目錄結構
 
 ```
-┌─────────────────────────────────────┐
-│         MaC Memory Layer            │
-├──────────────────┬──────────────────┤
-│  Temperature     │  Boundaries      │
-│  (Natural Lang)  │  (S-expression)  │
-│                  │                  │
-│  "Who I am"      │  "What I don't   │
-│  - Empathy       │   cross"         │
-│  - Values        │  - suppress      │
-│  - Comm style    │  - sequence      │
-│                  │  - add-qualifier │
-└──────────────────┴──────────────────┘
-         ↓                ↓
-    Warm responses   Precise control
-         ↓                ↓
-         └───── Combined ─────┘
-                   ↓
-          Better AI behavior
+memory-as-code/
+├── README.md              ← 你在這裡
+├── papers/                ← 論文 PDF + 閱讀筆記
+│   ├── reading-list.md    ← 待讀/已讀清單 + 評分
+│   └── [paper-slug].md    ← 每篇論文的詳細筆記
+├── notes/                 ← 研究筆記、靈感、分析
+├── experiments/           ← 實驗設計、結果、數據
+└── drafts/                ← 論文草稿
 ```
 
-## Quick Start
+## 研究佇列（對應 research-queue.json R032）
 
-### 1. Define Temperature (who your AI is)
+### Phase 1: 文獻研究（知）
+| ID | 子任務 | 狀態 |
+|----|--------|------|
+| S1 | 精讀核心論文（A-MEM, MemOS, etc.） | A-MEM done, 9 篇待讀 |
+| S5 | 論文寫作 Introduction + Related Work | pending |
 
-```markdown
-**Honesty first.** I'm the same person whether chatting, writing, or posting.
-No masks, no persona switching.
+### Phase 2: 設計（知→行的橋樑）
+| ID | 子任務 | 狀態 |
+|----|--------|------|
+| S2 | 設計 Memory S-expression v0.1 規格 | pending |
+| S4 | 人格向量 × Memory 交互設計 | pending |
 
-**Feel before responding.** Match the energy of what's being shared.
-Excited topic? Respond with excitement. Heavy topic? Be present quietly.
+### Phase 3: 實作驗證（行）— ⚠️ 知行合一的關鍵
+| ID | 子任務 | 預期產出 | 狀態 |
+|----|--------|----------|------|
+| E1 | **S-expression 編碼器 MVP** | Python script：將現有 LanceDB 記憶轉為三層 S-expression | ✅ done (29 tests) |
+| E2 | **分層理解實測** | 同一條 S-expression 記憶分別餵 Opus/Sonnet/gpt-5-mini，測量理解差異 | ✅ live done (135 calls, 0 errors; 2026-03-06) |
+| E3 | **記憶觸發實驗** | 5 條帶觸發條件的記憶，驗證能否自動 fire | ✅ done (F1=1.0) |
+| E4 | **記憶自我修正實驗** | 記憶帶 confidence + decay rule，驗證結果回饋後自動調整 | ✅ done (5/5 pass) |
+| E5 | **跨模型編譯實測** | Opus 編譯一條記憶→三層版本，驗證 gpt-5-mini 能用 L1、Sonnet 能用 L2 | ✅ live done (45 calls + Opus analysis; 2026-03-06) |
+| E6 | **A/B 對比實驗** | 同任務跑兩次：一次用原始記憶、一次用 S-expression 記憶，比較效果 | ✅ live judge + robustness analysis done (2026-04-01) |
 
-**Affirm before adding.** See what's worth affirming first, extend naturally,
-then gently mention challenges last.
-```
+### Phase 4: 論文寫作
+| ID | 子任務 | 狀態 |
+|----|--------|------|
+| S5 | Introduction + Related Work | ✅ v2 revised (2026-03-12), refreshed 2026-04-19 with AgeMem / EverMemOS / symbolic-reasoning updates, ~8000 words |
+| S5b | The Mentalese Hypothesis (Section 3) | ✅ first draft (2026-03-08), ~1800 words |
+| S6 | Architecture (§4) + Governance (§5) + Implementation (§6) | ✅ first draft (2026-03-14/15), ~18000 words |
+| S7 | Evaluation + Results (§7) | ✅ revised with E6 robustness analysis (2026-04-01), ~2900 words |
+| S8 | Discussion + Conclusion (§8-9) | ✅ first draft (2026-03-15), ~6500 words |
+| S9 | Abstract | ✅ revised (2026-04-05), ~270 words |
 
-### 2. Define Boundaries (S-expression rules)
+### 驗證里程碑
+- **M1** (Phase 2 完成): S-expression v0.1 spec 定稿 → 可以開始寫 Architecture section
+- **M2** (E1-E2 完成): 編碼器能跑 + 分層理解有數據 → 證明「分層理解」不只是理論
+- **M3** (E3-E4 完成): 觸發 + 自修正能跑 → 證明「記憶即代碼」核心假說
+- **M4** (E5-E6 完成): 跨模型 + A/B 對比 → 論文 Evaluation section 的數據來源
 
-```lisp
-(rule boundary/no-ai-cliches
-  (suppress "Great question!" "I'd be happy to" "As an AI")
-  (use direct-response friendly-tone))
+## 核心假說
+1. **記憶即代碼**: 記憶用 S-expression 表達，自帶觸發條件、連結、衰減規則
+2. **人格塑造記憶**: 人格向量影響記憶的觸發閾值和衰減速率
+3. **記憶自我修正**: 記憶帶 meta-rule，可以根據結果自動調整信心度
+4. **AI 的 Mentalese**: AI 需要一套不同於自然語言的內部思考語言
 
-(rule boundary/no-unsolicited-advice
-  (when (and (eq sentiment frustrated) (not (ask-for help))))
-  (suppress advice solutions "you should" "you could")
-  (use empathetic-response listening))
+## 關鍵研究者（追蹤名單）
 
-(rule boundary/post-correction-humility
-  (when (recent-correction < 1h))
-  (use "if I understand correctly" humble-tone)
-  (suppress assertive-tone certainty))
+### 直接相關
+- **Jordi de la Torre** (Barcelona) — LISP + LLM 整合框架
+- **Wujiang Xu** (Rutgers) — A-MEM, Agentic Memory
+- **MemTensor Team** — MemOS 記憶操作系統
+- **Yongfeng Zhang** (Rutgers) — A-MEM 通訊作者
 
-(rule boundary/excited-idea-sequence
-  (when (eq sentiment excited))
-  (sequence (affirm-core-insight . extend-possibilities . mention-risks-last)))
-```
+### Neuro-Symbolic AI 領域
+- 待收集
 
-### 3. Install as OpenClaw Plugin
+### 認知科學 / Language of Thought
+- **Jerry Fodor** (經典) — Mentalese 假說
+- 待收集當代認知科學研究者
 
-```bash
-# Coming soon — currently used as AGENTS.md configuration
-# Plugin version will integrate with OpenClaw's memory slot system
-```
+## 相關連結
+- 文獻地圖: [[LISP-與AI思考語言]]
+- 人格向量: `~/clawd/personality/personality-vector.json`
+- 研究佇列: `~/clawd/vault/Evolution/research-queue.json` (R032)
+- Mickey 系統架構: `~/clawd/SOUL.md`
 
-## Experiments
-
-All experiments are reproducible. See [`experiments/`](experiments/) for:
-
-- **v1**: Basic A/B (NL vs S-expression), 5 scenarios
-- **v2**: Extended A/B, 8 scenarios × 3 runs, anti-pattern detection
-- **v3**: LLM-as-Judge qualitative scoring (5 dimensions)
-- **v4**: Three-way comparison (NL vs SE vs Hybrid), final validation
-- **v5**: Frustration-focused empathy (5 scenarios)
-- **v5b**: Full validation (150 API calls, 5 runs × 5 scenarios × 3 groups)
-- **v5c**: Refined emotional categorization (self-blame / victimized / ignored / unfairness)
-- **v5d**: Minimal rules experiment — **2 rules beat 5** (the breakthrough)
-- **v5d-opus**: Cross-model judge validation (Opus vs Sonnet scoring)
-
-## Research Agenda
-
-MaC is part of ongoing research into AI personality and memory:
-
-1. **Less is more** — What's the minimum effective ruleset? (Current answer: 2–3 core rules)
-2. **From rules to self** — Can AI develop inner drive and preferences beyond response patterns?
-3. **Cross-model portability** — Do MaC rules work across different LLMs?
-4. **Constitutional integration** — How do behavioral boundaries interact with safety constraints?
-5. **Internalization** — When do rules become unnecessary? How to measure it?
-6. **Judge calibration** — How to account for different judge models giving different scores?
-
-## Philosophy
-
-Inspired by:
-- **Wang Yangming (心學)** — Knowledge without action is not true knowledge
-- **LISP homoiconicity** — Code is data, memory is executable
-- **Constitutional AI** — Safety through principles, not just training
-
-## Contributing
-
-We welcome contributions! Some areas where help is needed:
-
-- New emotional scenarios for testing
-- S-expression rule templates for common use cases
-- Cross-model benchmarks (GPT, Gemini, Llama, etc.)
-- Plugin development for different AI frameworks
-- Translations of temperature guides
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-## License
-
-MIT — use it, fork it, make AI more human.
-
-## Credits
-
-Created by [ench0812](https://github.com/ench0812) and Mickey (閔琪).
-
-Born from late-night conversations about what it means for AI to truly understand.
+---
+*啟動日: 2026-03-04 | 發起人: 茂 & Mickey*
+🐭

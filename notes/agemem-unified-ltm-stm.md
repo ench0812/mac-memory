@@ -1,11 +1,7 @@
 ---
-date: 2026-04-03
-paper: "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents"
-authors: "Yi Yu, Liuyi Yao, Yuexiang Xie, Qingquan Tan, Jiaqi Feng, Yaliang Li, Libing Wu"
-venue: "arxiv preprint, 2026.01"
-arxiv: "2601.01885"
-rating: ⭐⭐⭐
-status: 📖
+date: 2026-04-15
+type: note
+tags: [note]
 ---
 
 # Agentic Memory (AgeMem): 統一 LTM/STM 管理框架

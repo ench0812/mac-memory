@@ -42,17 +42,19 @@ MaC synthesizes A-MEM's insight (memory should evolve) with MemOS's infrastructu
 
 ### 2.1.4 Emerging Directions
 
-Several recent systems explore directions complementary to MaC.
+Several recent systems explore directions complementary to MaC, but they mostly improve *control* or *organization* around memory rather than the representational status of memory items themselves.
 
 **Learning what to remember.** Memory-R1 \cite{yan2025memoryr1} uses reinforcement learning to train memory extraction modules, learning *what* to remember rather than relying on heuristic summarization—addressing memory formation rather than memory representation.
 
-**Self-organizing memory.** EverMemOS \cite{hu2026evermemos} introduces self-organizing MemCell/MemScene structures for autonomous memory organization, and Second-Me proposes L0/L1/L2 memory tiers for personal AI—both sharing MaC's intuition that memory should be more autonomous.
+**Unified agentic memory control.** AgeMem \cite{yu2026agemem} unifies long-term and short-term memory management inside the agent policy, letting the model decide when to store, retrieve, update, summarize, filter, or discard information. This is an important step toward autonomous memory operations, and its empirical gains support the claim that memory management should be first-class rather than bolted on. MaC shares that premise, but differs in that the memory item itself remains the executable primitive: control policies decide *whether* to act, while MaC memories encode *how* they act.
+
+**Self-organizing memory.** EverMemOS \cite{hu2026evermemos} introduces self-organizing MemCell/MemScene structures for autonomous memory organization, and Second-Me proposes L0/L1/L2 memory tiers for personal AI—both sharing MaC's intuition that memory should be more autonomous. Yet these systems still frame autonomy as an operating-layer concern; they do not make the memory unit homoiconic or self-modifying.
 
 **LLM-native memory management.** The recently open-sourced Always On Memory Agent \cite{saboo2026aoma} (Google Cloud Platform, March 2026) takes the provocative position that vector databases are unnecessary: it uses Gemini directly to read, organize, and consolidate structured memories stored in SQLite, performing scheduled consolidation every 30 minutes. This aligns with MaC's philosophy that the LLM should be the memory's interpreter, not merely its consumer. However, the Always On Memory Agent treats the LLM as an external organizer acting on passive data; MaC goes further by embedding the organizational logic *within the memory itself*.
 
-**Cognitive design patterns.** Work on applying cognitive design patterns to LLM agents \cite{agi25cogpatterns} has identified reconsideration, metalevel reasoning, and episodic memory as transferable patterns from classical cognitive architectures—providing a bridge between ACT-R/SOAR traditions and modern LLM agents that MaC explicitly builds upon.
+**Cognitive design patterns.** Work on applying cognitive design patterns to LLM agents \cite{agi25cogpatterns} has identified reconsideration, metalevel reasoning, and episodic memory as transferable patterns from classical cognitive architectures—providing a bridge between ACT-R/SOAR traditions and modern LLM agents that MaC explicitly builds upon. Related April 2026 talks on symbolic reasoning also reinforce that deductive machinery still matters for safety and alignment, especially when models must explain or verify their own internal decisions \cite{wallenberg2026symbolic_reasoning}.
 
-None of these systems adopt the homoiconic representation that enables memory to be simultaneously data and program, nor do they address personality-modulated memory dynamics.
+Taken together, these systems move the field toward more autonomous memory control, but none of them adopt the homoiconic representation that enables memory to be simultaneously data and program, nor do they address personality-modulated memory dynamics.
 
 ### 2.1.5 Personality and Emotion in Agent Memory
 

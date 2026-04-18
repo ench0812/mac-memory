@@ -1,11 +1,5 @@
 ---
-date: 2026-03-30
-paper: Building Self-Evolving Agents via Experience-Driven Lifelong Learning: A Framework and Benchmark
-authors: Yuxuan Cai, Yipeng Hao, Jie Zhou, Hang Yan, Zhikai Lei, Rui Zhen, Zhenhua Han, Yutao Yang, Junsong Li, Qianjun Pan, Tianyu Huai, Qin Chen, Xin Li, Kai Chen, Bo Zhang, Xipeng Qiu, Liang He
-venue: arxiv preprint
-arxiv: 2508.19005
-rating: ⭐⭐
-status: 📖
+date: 2026-04-08
 type: note
 tags: [note]
 ---

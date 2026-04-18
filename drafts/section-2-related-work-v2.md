@@ -145,7 +145,7 @@ Table \ref{tab:comparison} summarizes how MaC relates to the most relevant prior
 | Stanford GA \cite{park2023generative} | Natural language | ✗ | ✗ | ✗ | Time-decay | Fixed weights | ✗ |
 | Emotional RAG \cite{emotionalrag2024} | Emotion-tagged | ✗ | ✗ | ✗ | ✗ | Mood (transient) | ✗ |
 | MemoryBank \cite{zhong2024memorybank} | Natural language | ✗ | ✗ | ✗ | Ebbinghaus | ✗ | ✗ |
-| ACT-R \cite{anderson2004actr} | Chunks + rules | Yes (rules) | Chunking | ✗ | Activation decay | ✗ | Fixed arch. |
+| ACT-R \cite{anderson2024actr} | Chunks + rules | Yes (rules) | Chunking | ✗ | Activation decay | ✗ | Fixed arch. |
 | **MaC (ours)** | **S-expression** | **✓** | **Structural** | **✓ (L1/L2/L3)** | **Embedded** | **OCEAN-5 (trait)** | **Constitutional** |
 
 ^† CoALA's procedural memory is executable but architecturally segregated from episodic/semantic memory.
